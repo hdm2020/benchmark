@@ -1,0 +1,700 @@
+model_name,source,TF,cell,TF_SYMBOL,weight
+TF_E3_100,ZNF207 ChIP-seq on human GM12878,ZNF207,GM12878,ZNF207,TF_E3_100_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_101,ZSCAN29 ChIP-seq on human GM12878,ZSCAN29,GM12878,ZSCAN29,TF_E3_101_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_103,IKZF1 ChIP-seq on human GM12878,IKZF1,GM12878,IKZF1,TF_E3_103_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_104,ATF2 ChIP-seq on human GM12878,ATF2,GM12878,ATF2,TF_E3_104_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_105,ZBED1 ChIP-seq on human GM12878,ZBED1,GM12878,ZBED1,TF_E3_105_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_106,ZNF687 ChIP-seq on human GM12878,ZNF687,GM12878,ZNF687,TF_E3_106_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_107,ZNF217 ChIP-seq on human GM12878,ZNF217,GM12878,ZNF217,TF_E3_107_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_108,GABPA ChIP-seq on human GM12878,GABPA,GM12878,GABPA,TF_E3_108_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_11,ZC3H11A ChIP-seq on human A549,ZC3H11A,A549,ZC3H11A,TF_E3_11_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_110,eGFP-SCRT2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,SCRT2,HEK293,SCRT2,TF_E3_110_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_111,eGFP-ZNF585B ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF585B,HEK293,ZNF585B,TF_E3_111_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_114,eGFP-ZNF101 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF101,HEK293,ZNF101,TF_E3_114_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_115,eGFP-ZNF362 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF362,HEK293,ZNF362,TF_E3_115_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_116,eGFP-OSR2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,OSR2,HEK293,OSR2,TF_E3_116_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_117,eGFP-PRDM4 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PRDM4,HEK293,PRDM4,TF_E3_117_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_118,eGFP-SP2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,SP2,HEK293,SP2,TF_E3_118_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_119,eGFP-ZBTB7A ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB7A,HEK293,ZBTB7A,TF_E3_119_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_12,KDM1A ChIP-seq on human A549,KDM1A,A549,KDM1A,TF_E3_12_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_120,eGFP-ZNF577 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF577,HEK293,ZNF577,TF_E3_120_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_121,eGFP-ZNF24 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF24,HEK293,ZNF24,TF_E3_121_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_123,eGFP-ZNF654 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF654,HEK293,ZNF654,TF_E3_123_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_125,eGFP-ZNF610 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF610,HEK293,ZNF610,TF_E3_125_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_126,eGFP-ZNF770 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF770,HEK293,ZNF770,TF_E3_126_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_127,eGFP-EGR2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,EGR2,HEK293,EGR2,TF_E3_127_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_128,eGFP-ZNF792 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF792,HEK293,ZNF792,TF_E3_128_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_131,eGFP-GLI4 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,GLI4,HEK293,GLI4,TF_E3_131_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_132,eGFP-ZNF518A ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF518A,HEK293,ZNF518A,TF_E3_132_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_133,eGFP-ZSCAN5A ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN5A,HEK293,ZSCAN5A,TF_E3_133_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_134,eGFP-KLF17 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF17,HEK293,KLF17,TF_E3_134_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_135,eGFP-ZNF391 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF391,HEK293,ZNF391,TF_E3_135_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_136,eGFP-ZBTB8A ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB8A,HEK293,ZBTB8A,TF_E3_136_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_137,eGFP-WT1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,WT1,HEK293,WT1,TF_E3_137_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_138,eGFP-BCL11B ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,BCL11B,HEK293,BCL11B,TF_E3_138_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_139,eGFP-KLF16 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF16,HEK293,KLF16,TF_E3_139_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_14,MAFK ChIP-seq on human A549,MAFK,A549,MAFK,TF_E3_14_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_141,eGFP-ZNF18 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF18,HEK293,ZNF18,TF_E3_141_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_142,eGFP-ZSCAN21 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN21,HEK293,ZSCAN21,TF_E3_142_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_146,eGFP-ZNF2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF2,HEK293,ZNF2,TF_E3_146_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_147,eGFP-REST ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,REST,HEK293,REST,TF_E3_147_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_149,eGFP-ZBTB26 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB26,HEK293,ZBTB26,TF_E3_149_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_15,NFE2L2 ChIP-seq on human A549,NFE2L2,A549,NFE2L2,TF_E3_15_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_153,eGFP-ZNF157 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF157,HEK293,ZNF157,TF_E3_153_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_156,eGFP-MAZ ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,MAZ,HEK293,MAZ,TF_E3_156_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_158,eGFP-MYNN ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,MYNN,HEK293,MYNN,TF_E3_158_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_16,PHF8 ChIP-seq on human A549,PHF8,A549,PHF8,TF_E3_16_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_160,eGFP-ZBTB48 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB48,HEK293,ZBTB48,TF_E3_160_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_161,eGFP-ZFHX2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZFHX2,HEK293,ZFHX2,TF_E3_161_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_162,eGFP-ZNF10 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF10,HEK293,ZNF10,TF_E3_162_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_163,eGFP-KLF8 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF8,HEK293,KLF8,TF_E3_163_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_164,eGFP-KLF13 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF13,HEK293,KLF13,TF_E3_164_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_165,eGFP-ZBTB6 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB6,HEK293,ZBTB6,TF_E3_165_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_167,eGFP-ZXDB ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZXDB,HEK293,ZXDB,TF_E3_167_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_169,eGFP-KLF1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF1,HEK293,KLF1,TF_E3_169_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_171,eGFP-FEZF1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,FEZF1,HEK293,FEZF1,TF_E3_171_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_172,eGFP-ZNF600 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF600,HEK293,ZNF600,TF_E3_172_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_174,eGFP-YY1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,YY1,HEK293,YY1,TF_E3_174_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_175,eGFP-GFI1B ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,GFI1B,HEK293,GFI1B,TF_E3_175_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_176,eGFP-ZEB2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZEB2,HEK293,ZEB2,TF_E3_176_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_177,eGFP-SCRT1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,SCRT1,HEK293,SCRT1,TF_E3_177_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_178,eGFP-BCL11A ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,BCL11A,HEK293,BCL11A,TF_E3_178_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_179,eGFP-ZNF366 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF366,HEK293,ZNF366,TF_E3_179_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_180,eGFP-HIC1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,HIC1,HEK293,HIC1,TF_E3_180_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_181,eGFP-ZNF394 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF394,HEK293,ZNF394,TF_E3_181_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_183,eGFP-ZNF843 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF843,HEK293,ZNF843,TF_E3_183_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_184,eGFP-PRDM2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PRDM2,HEK293,PRDM2,TF_E3_184_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_188,eGFP-ZBTB20 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB20,HEK293,ZBTB20,TF_E3_188_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_19,KDM5A ChIP-seq on human A549,KDM5A,A549,KDM5A,TF_E3_19_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_190,eGFP-PRDM1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PRDM1,HEK293,PRDM1,TF_E3_190_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_191,eGFP-ZFP69B ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZFP69B,HEK293,ZFP69B,TF_E3_191_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_192,eGFP-ZNF76 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF76,HEK293,ZNF76,TF_E3_192_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_194,eGFP-ZNF335 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF335,HEK293,ZNF335,TF_E3_194_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_195,eGFP-ZNF623 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF623,HEK293,ZNF623,TF_E3_195_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_197,eGFP-YY2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,YY2,HEK293,YY2,TF_E3_197_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_198,eGFP-INSM2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,INSM2,HEK293,INSM2,TF_E3_198_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_2,SMC3 ChIP-seq on human A549,SMC3,A549,SMC3,TF_E3_2_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_204,eGFP-ZFP64 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZFP64,HEK293,ZFP64,TF_E3_204_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_205,eGFP-ZNF423 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF423,HEK293,ZNF423,TF_E3_205_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_206,eGFP-MZF1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,MZF1,HEK293,MZF1,TF_E3_206_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_207,eGFP-KLF7 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF7,HEK293,KLF7,TF_E3_207_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_208,eGFP-ZNF555 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF555,HEK293,ZNF555,TF_E3_208_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_209,eGFP-ZNF501 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF501,HEK293,ZNF501,TF_E3_209_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_210,eGFP-KLF9 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF9,HEK293,KLF9,TF_E3_210_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_211,eGFP-ATF2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ATF2,HEK293,ATF2,TF_E3_211_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_213,eGFP-ZNF524 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF524,HEK293,ZNF524,TF_E3_213_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_214,eGFP-ZNF639 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF639,HEK293,ZNF639,TF_E3_214_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_215,eGFP-ZNF133 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF133,HEK293,ZNF133,TF_E3_215_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_217,eGFP-PRDM10 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PRDM10,HEK293,PRDM10,TF_E3_217_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_218,eGFP-ZEB1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZEB1,HEK293,ZEB1,TF_E3_218_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_221,eGFP-GLIS1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,GLIS1,HEK293,GLIS1,TF_E3_221_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_222,eGFP-ZBTB10 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB10,HEK293,ZBTB10,TF_E3_222_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_224,eGFP-ZNF280D ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF280D,HEK293,ZNF280D,TF_E3_224_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_225,eGFP-ZIC2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZIC2,HEK293,ZIC2,TF_E3_225_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_226,eGFP-ZSCAN4 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN4,HEK293,ZSCAN4,TF_E3_226_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_227,eGFP-ZNF777 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF777,HEK293,ZNF777,TF_E3_227_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_228,eGFP-CTCF ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,CTCF,HEK293,CTCF,TF_E3_228_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_23,USF2 ChIP-seq on human A549,USF2,A549,USF2,TF_E3_23_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_232,eGFP-ZNF213 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF213,HEK293,ZNF213,TF_E3_232_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_233,eGFP-ZNF34 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF34,HEK293,ZNF34,TF_E3_233_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_234,eGFP-SP3 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,SP3,HEK293,SP3,TF_E3_234_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_235,eGFP-ZSCAN5C ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN5C,HEK293,ZSCAN5C,TF_E3_235_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_237,eGFP-ZNF426 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF426,HEK293,ZNF426,TF_E3_237_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_238,eGFP-ZBTB12 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB12,HEK293,ZBTB12,TF_E3_238_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_242,eGFP-ZNF580 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF580,HEK293,ZNF580,TF_E3_242_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_243,eGFP-ZNF341 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF341,HEK293,ZNF341,TF_E3_243_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_244,eGFP-PRDM6 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PRDM6,HEK293,PRDM6,TF_E3_244_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_246,eGFP-ZNF785 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF785,HEK293,ZNF785,TF_E3_246_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_248,eGFP-ZSCAN16 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN16,HEK293,ZSCAN16,TF_E3_248_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_249,eGFP-ZNF768 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF768,HEK293,ZNF768,TF_E3_249_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_250,eGFP-ZNF692 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF692,HEK293,ZNF692,TF_E3_250_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_253,eGFP-ZNF239 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF239,HEK293,ZNF239,TF_E3_253_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_254,eGFP-ZNF449 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF449,HEK293,ZNF449,TF_E3_254_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_256,eGFP-PRDM12 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PRDM12,HEK293,PRDM12,TF_E3_256_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_257,eGFP-ZBTB11 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB11,HEK293,ZBTB11,TF_E3_257_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_258,eGFP-ZBTB21 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB21,HEK293,ZBTB21,TF_E3_258_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_259,eGFP-TSHZ1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,TSHZ1,HEK293,TSHZ1,TF_E3_259_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_260,eGFP-ZNF781 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF781,HEK293,ZNF781,TF_E3_260_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_261,eGFP-GLIS2 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,GLIS2,HEK293,GLIS2,TF_E3_261_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_263,eGFP-ZNF146 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF146,HEK293,ZNF146,TF_E3_263_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_267,eGFP-ZNF629 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF629,HEK293,ZNF629,TF_E3_267_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_268,eGFP-ZNF558 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF558,HEK293,ZNF558,TF_E3_268_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_27,MEF2B ChIP-seq on human GM12878,MEF2B,GM12878,MEF2B,TF_E3_27_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_272,eGFP-ZNF776 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF776,HEK293,ZNF776,TF_E3_272_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_274,eGFP-ZNF189 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF189,HEK293,ZNF189,TF_E3_274_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_275,eGFP-ZNF398 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF398,HEK293,ZNF398,TF_E3_275_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_278,eGFP-ZNF148 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF148,HEK293,ZNF148,TF_E3_278_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_279,eGFP-KLF14 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF14,HEK293,KLF14,TF_E3_279_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_28,MTA2 ChIP-seq on human GM12878,MTA2,GM12878,MTA2,TF_E3_28_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_284,eGFP-ZNF324 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF324,HEK293,ZNF324,TF_E3_284_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_286,eGFP-OVOL3 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,OVOL3,HEK293,OVOL3,TF_E3_286_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_287,eGFP-ZFP37 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZFP37,HEK293,ZFP37,TF_E3_287_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_288,eGFP-PATZ1 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,PATZ1,HEK293,PATZ1,TF_E3_288_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_289,eGFP-ZSCAN23 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN23,HEK293,ZSCAN23,TF_E3_289_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_29,NBN ChIP-seq on human GM12878,NBN,GM12878,NBN,TF_E3_29_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_290,eGFP-ZNF697 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF697,HEK293,ZNF697,TF_E3_290_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_293,eGFP-SP7 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,SP7,HEK293,SP7,TF_E3_293_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_294,eGFP-ZNF680 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF680,HEK293,ZNF680,TF_E3_294_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_295,eGFP-ZNF664 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF664,HEK293,ZNF664,TF_E3_295_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_297,eGFP-BCL6B ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,BCL6B,HEK293,BCL6B,TF_E3_297_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_298,eGFP-ZNF350 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF350,HEK293,ZNF350,TF_E3_298_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_3,ZFP36 ChIP-seq on human A549,ZFP36,A549,ZFP36,TF_E3_3_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_303,eGFP-ZNF184 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF184,HEK293,ZNF184,TF_E3_303_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_304,eGFP-ZBTB17 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB17,HEK293,ZBTB17,TF_E3_304_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_305,eGFP-ZNF121 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF121,HEK293,ZNF121,TF_E3_305_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_307,eGFP-ZSCAN30 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZSCAN30,HEK293,ZSCAN30,TF_E3_307_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_31,E2F8 ChIP-seq on human GM12878,E2F8,GM12878,E2F8,TF_E3_31_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_310,eGFP-KLF10 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,KLF10,HEK293,KLF10,TF_E3_310_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_311,eGFP-ZNF513 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF513,HEK293,ZNF513,TF_E3_311_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_312,eGFP-ZNF660 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF660,HEK293,ZNF660,TF_E3_312_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_313,eGFP-ZNF596 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF596,HEK293,ZNF596,TF_E3_313_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_315,eGFP-ZNF561 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZNF561,HEK293,ZNF561,TF_E3_315_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_316,eGFP-IKZF3 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,IKZF3,HEK293,IKZF3,TF_E3_316_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_317,eGFP-ZBTB44 ChIP-seq on human HEK293 genetically modified using site-specific recombination originated from HEK293,ZBTB44,HEK293,ZBTB44,TF_E3_317_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_32,SRF ChIP-seq on human GM12878,SRF,GM12878,SRF,TF_E3_32_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_320,ZHX1 ChIP-seq on human HeLa-S3,ZHX1,HeLa-S3,ZHX1,TF_E3_320_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_321,MAFF ChIP-seq on human HeLa-S3,MAFF,HeLa-S3,MAFF,TF_E3_321_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_323,NFE2L2 ChIP-seq on human HeLa-S3,NFE2L2,HeLa-S3,NFE2L2,TF_E3_323_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_324,DEK ChIP-seq on human HeLa-S3,DEK,HeLa-S3,DEK,TF_E3_324_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_325,EP300 ChIP-seq on human HeLa-S3,EP300,HeLa-S3,EP300,TF_E3_325_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_326,3xFLAG-ATF1 ChIP-seq on human HepG2 genetically modified using CRISPR,ATF1,HepG2,ATF1,TF_E3_326_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_328,3xFLAG-CREB1 ChIP-seq on human HepG2 genetically modified using CRISPR,CREB1,HepG2,CREB1,TF_E3_328_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_329,ZNF384 ChIP-seq on human HepG2,ZNF384,HepG2,ZNF384,TF_E3_329_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_33,IKZF2 ChIP-seq on human GM12878,IKZF2,GM12878,IKZF2,TF_E3_33_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_330,3xFLAG-RAD21 ChIP-seq on human HepG2 genetically modified using CRISPR,RAD21,HepG2,RAD21,TF_E3_330_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_331,FOXA1 ChIP-seq on human HepG2,FOXA1,HepG2,FOXA1,TF_E3_331_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_332,FOXP1 ChIP-seq on human HepG2,FOXP1,HepG2,FOXP1,TF_E3_332_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_333,NONO ChIP-seq on human HepG2,NONO,HepG2,NONO,TF_E3_333_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_334,ZKSCAN1 ChIP-seq on human HepG2,ZKSCAN1,HepG2,ZKSCAN1,TF_E3_334_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_335,HCFC1 ChIP-seq on human HepG2,HCFC1,HepG2,HCFC1,TF_E3_335_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_337,FOXK2 ChIP-seq on human HepG2,FOXK2,HepG2,FOXK2,TF_E3_337_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_338,3xFLAG-SSRP1 ChIP-seq on human HepG2 genetically modified using CRISPR,SSRP1,HepG2,SSRP1,TF_E3_338_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_339,CHD4 ChIP-seq on human HepG2,CHD4,HepG2,CHD4,TF_E3_339_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_34,IKZF2 ChIP-seq on human GM12878,IKZF2,GM12878,IKZF2,TF_E3_34_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_341,LCORL ChIP-seq on human HepG2,LCORL,HepG2,LCORL,TF_E3_341_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_342,ASH2L ChIP-seq on human HepG2,ASH2L,HepG2,ASH2L,TF_E3_342_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_344,CREB1 ChIP-seq on human HepG2,CREB1,HepG2,CREB1,TF_E3_344_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_346,ETV4 ChIP-seq on human HepG2,ETV4,HepG2,ETV4,TF_E3_346_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_347,SIN3B ChIP-seq on human HepG2,SIN3B,HepG2,SIN3B,TF_E3_347_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_348,3xFLAG-TGIF2 ChIP-seq on human HepG2 genetically modified using CRISPR,TGIF2,HepG2,TGIF2,TF_E3_348_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_35,SKIL ChIP-seq on human GM12878,SKIL,GM12878,SKIL,TF_E3_35_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_350,TBX3 ChIP-seq on human HepG2,TBX3,HepG2,TBX3,TF_E3_350_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_351,ZMYM3 ChIP-seq on human HepG2,ZMYM3,HepG2,ZMYM3,TF_E3_351_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_352,TBX3 ChIP-seq on human HepG2,TBX3,HepG2,TBX3,TF_E3_352_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_353,CREM ChIP-seq on human HepG2,CREM,HepG2,CREM,TF_E3_353_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_354,HNRNPK ChIP-seq on human HepG2,HNRNPK,HepG2,HNRNPK,TF_E3_354_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_355,NRF1 ChIP-seq on human HepG2,NRF1,HepG2,NRF1,TF_E3_355_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_358,SKI ChIP-seq on human HepG2,SKI,HepG2,SKI,TF_E3_358_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_36,PAX8 ChIP-seq on human GM12878,PAX8,GM12878,PAX8,TF_E3_36_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_360,RAD51 ChIP-seq on human HepG2,RAD51,HepG2,RAD51,TF_E3_360_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_361,RBM22 ChIP-seq on human HepG2,RBM22,HepG2,RBM22,TF_E3_361_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_364,AGO2 ChIP-seq on human HepG2,AGO2,HepG2,AGO2,TF_E3_364_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_365,PHF8 ChIP-seq on human HepG2,PHF8,HepG2,PHF8,TF_E3_365_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_367,3xFLAG-HBP1 ChIP-seq on human HepG2 genetically modified using CRISPR,HBP1,HepG2,HBP1,TF_E3_367_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_369,POLR2G ChIP-seq on human HepG2,POLR2G,HepG2,POLR2G,TF_E3_369_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_371,TBL1XR1 ChIP-seq on human HepG2,TBL1XR1,HepG2,TBL1XR1,TF_E3_371_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_372,ATF7 ChIP-seq on human HepG2,ATF7,HepG2,ATF7,TF_E3_372_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_373,ATF2 ChIP-seq on human HepG2,ATF2,HepG2,ATF2,TF_E3_373_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_374,RNF2 ChIP-seq on human HepG2,RNF2,HepG2,RNF2,TF_E3_374_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_375,ZBTB40 ChIP-seq on human HepG2,ZBTB40,HepG2,ZBTB40,TF_E3_375_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_379,ZHX2 ChIP-seq on human HepG2,ZHX2,HepG2,ZHX2,TF_E3_379_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_380,HDAC1 ChIP-seq on human HepG2,HDAC1,HepG2,HDAC1,TF_E3_380_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_382,3xFLAG-MBD1 ChIP-seq on human HepG2 genetically modified using CRISPR,MBD1,HepG2,MBD1,TF_E3_382_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_383,TCF7 ChIP-seq on human HepG2,TCF7,HepG2,TCF7,TF_E3_383_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_385,NFE2L2 ChIP-seq on human HepG2,NFE2L2,HepG2,NFE2L2,TF_E3_385_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_386,KDM1A ChIP-seq on human HepG2,KDM1A,HepG2,KDM1A,TF_E3_386_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_387,HNRNPL ChIP-seq on human HepG2,HNRNPL,HepG2,HNRNPL,TF_E3_387_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_389,HNRNPLL ChIP-seq on human HepG2,HNRNPLL,HepG2,HNRNPLL,TF_E3_389_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_39,IRF3 ChIP-seq on human GM12878,IRF3,GM12878,IRF3,TF_E3_39_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_392,RBM39 ChIP-seq on human HepG2,RBM39,HepG2,RBM39,TF_E3_392_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_393,HNF1A ChIP-seq on human HepG2,HNF1A,HepG2,HNF1A,TF_E3_393_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_394,KDM5A ChIP-seq on human HepG2,KDM5A,HepG2,KDM5A,TF_E3_394_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_396,NR2F6 ChIP-seq on human HepG2,NR2F6,HepG2,NR2F6,TF_E3_396_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_399,3xFLAG-DNMT3B ChIP-seq on human HepG2 genetically modified using CRISPR,DNMT3B,HepG2,DNMT3B,TF_E3_399_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_40,TCF7 ChIP-seq on human GM12878,TCF7,GM12878,TCF7,TF_E3_40_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_400,EHMT2 ChIP-seq on human HepG2,EHMT2,HepG2,EHMT2,TF_E3_400_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_401,SOX13 ChIP-seq on human HepG2,SOX13,HepG2,SOX13,TF_E3_401_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_402,TFAP4 ChIP-seq on human HepG2,TFAP4,HepG2,TFAP4,TF_E3_402_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_403,3xFLAG-PBX2 ChIP-seq on human HepG2 genetically modified using CRISPR,PBX2,HepG2,PBX2,TF_E3_403_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_405,PCBP1 ChIP-seq on human HepG2,PCBP1,HepG2,PCBP1,TF_E3_405_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_406,U2AF2 ChIP-seq on human HepG2,U2AF2,HepG2,U2AF2,TF_E3_406_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_407,3xFLAG-GABPA ChIP-seq on human HepG2 genetically modified using CRISPR,GABPA,HepG2,GABPA,TF_E3_407_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_408,GTF2F1 ChIP-seq on human HepG2,GTF2F1,HepG2,GTF2F1,TF_E3_408_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_41,CREM ChIP-seq on human GM12878,CREM,GM12878,CREM,TF_E3_41_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_410,PTBP1 ChIP-seq on human HepG2,PTBP1,HepG2,PTBP1,TF_E3_410_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_411,TAF15 ChIP-seq on human HepG2,TAF15,HepG2,TAF15,TF_E3_411_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_412,CCAR2 ChIP-seq on human HepG2,CCAR2,HepG2,CCAR2,TF_E3_412_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_413,TARDBP ChIP-seq on human HepG2,TARDBP,HepG2,TARDBP,TF_E3_413_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_414,ETS1 ChIP-seq on human HepG2,ETS1,HepG2,ETS1,TF_E3_414_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_415,GATA4 ChIP-seq on human HepG2,GATA4,HepG2,GATA4,TF_E3_415_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_416,RFX1 ChIP-seq on human HepG2,RFX1,HepG2,RFX1,TF_E3_416_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_417,3xFLAG-MBD1 ChIP-seq on human HepG2 genetically modified using CRISPR,MBD1,HepG2,MBD1,TF_E3_417_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_418,RBFOX2 ChIP-seq on human HepG2,RBFOX2,HepG2,RBFOX2,TF_E3_418_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_419,ZNF24 ChIP-seq on human HepG2,ZNF24,HepG2,ZNF24,TF_E3_419_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_421,HNRNPUL1 ChIP-seq on human HepG2,HNRNPUL1,HepG2,HNRNPUL1,TF_E3_421_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_423,MNT ChIP-seq on human HepG2,MNT,HepG2,MNT,TF_E3_423_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_424,3xFLAG-KLF16 ChIP-seq on human HepG2,KLF16,HepG2,KLF16,TF_E3_424_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_425,3xFLAG-RARA ChIP-seq on human HepG2,RARA,HepG2,RARA,TF_E3_425_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_426,3xFLAG-AHR ChIP-seq on human HepG2,AHR,HepG2,AHR,TF_E3_426_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_427,3xFLAG-ERF ChIP-seq on human HepG2,ERF,HepG2,ERF,TF_E3_427_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_428,3xFLAG-BCL6 ChIP-seq on human HepG2 genetically modified using CRISPR,BCL6,HepG2,BCL6,TF_E3_428_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_429,3xFLAG-KLF11 ChIP-seq on human HepG2,KLF11,HepG2,KLF11,TF_E3_429_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_430,3xFLAG-RERE ChIP-seq on human HepG2 genetically modified using CRISPR,RERE,HepG2,RERE,TF_E3_430_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_431,3xFLAG-TFE3 ChIP-seq on human HepG2 genetically modified using CRISPR,TFE3,HepG2,TFE3,TF_E3_431_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_432,3xFLAG-HOMEZ ChIP-seq on human HepG2,HOMEZ,HepG2,HOMEZ,TF_E3_432_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_433,3xFLAG-ELF3 ChIP-seq on human HepG2,ELF3,HepG2,ELF3,TF_E3_433_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_434,3xFLAG-SOX5 ChIP-seq on human HepG2,SOX5,HepG2,SOX5,TF_E3_434_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_435,3xFLAG-ZNF652 ChIP-seq on human HepG2,ZNF652,HepG2,ZNF652,TF_E3_435_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_436,3xFLAG-HLF ChIP-seq on human HepG2 genetically modified using CRISPR,HLF,HepG2,HLF,TF_E3_436_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_437,ZNF24 ChIP-seq on human HepG2,ZNF24,HepG2,ZNF24,TF_E3_437_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_441,MNT ChIP-seq on human HepG2,MNT,HepG2,MNT,TF_E3_441_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_442,FOXA2 ChIP-seq on human HepG2,FOXA2,HepG2,FOXA2,TF_E3_442_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_444,3xFLAG-HMGXB4 ChIP-seq on human HepG2,HMGXB4,HepG2,HMGXB4,TF_E3_444_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_445,U2AF1 ChIP-seq on human HepG2,U2AF1,HepG2,U2AF1,TF_E3_445_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_446,FUS ChIP-seq on human HepG2,FUS,HepG2,FUS,TF_E3_446_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_448,3xFLAG-GATAD1 ChIP-seq on human HepG2,GATAD1,HepG2,GATAD1,TF_E3_448_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_449,3xFLAG-NFIL3 ChIP-seq on human HepG2,NFIL3,HepG2,NFIL3,TF_E3_449_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_45,ZBTB40 ChIP-seq on human GM12878,ZBTB40,GM12878,ZBTB40,TF_E3_45_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_450,3xFLAG-KDM3A ChIP-seq on human HepG2 genetically modified using CRISPR,KDM3A,HepG2,KDM3A,TF_E3_450_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_451,3xFLAG-NFIA ChIP-seq on human HepG2 genetically modified using CRISPR,NFIA,HepG2,NFIA,TF_E3_451_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_452,3xFLAG-MLX ChIP-seq on human HepG2 genetically modified using CRISPR,MLX,HepG2,MLX,TF_E3_452_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_453,3xFLAG-ETV5 ChIP-seq on human HepG2,ETV5,HepG2,ETV5,TF_E3_453_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_454,3xFLAG-ZNF511 ChIP-seq on human HepG2 genetically modified using CRISPR,ZNF511,HepG2,ZNF511,TF_E3_454_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_455,3xFLAG-GABPB1 ChIP-seq on human HepG2 genetically modified using CRISPR,GABPB1,HepG2,GABPB1,TF_E3_455_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_456,3xFLAG-HMG20A ChIP-seq on human HepG2 genetically modified using CRISPR,HMG20A,HepG2,HMG20A,TF_E3_456_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_457,3xFLAG-DMAP1 ChIP-seq on human HepG2,DMAP1,HepG2,DMAP1,TF_E3_457_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_458,3xFLAG-MIER3 ChIP-seq on human HepG2,MIER3,HepG2,MIER3,TF_E3_458_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_459,3xFLAG-ZNF614 ChIP-seq on human HepG2,ZNF614,HepG2,ZNF614,TF_E3_459_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_46,ETV6 ChIP-seq on human GM12878,ETV6,GM12878,ETV6,TF_E3_46_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_460,3xFLAG-TEAD1 ChIP-seq on human HepG2,TEAD1,HepG2,TEAD1,TF_E3_460_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_461,3xFLAG-ZBTB25 ChIP-seq on human HepG2,ZBTB25,HepG2,ZBTB25,TF_E3_461_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_462,3xFLAG-RCOR2 ChIP-seq on human HepG2 genetically modified using CRISPR,RCOR2,HepG2,RCOR2,TF_E3_462_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_463,3xFLAG-ZSCAN9 ChIP-seq on human HepG2,ZSCAN9,HepG2,ZSCAN9,TF_E3_463_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_464,3xFLAG-CEBPG ChIP-seq on human HepG2 genetically modified using CRISPR,CEBPG,HepG2,CEBPG,TF_E3_464_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_465,3xFLAG-TEAD3 ChIP-seq on human HepG2,TEAD3,HepG2,TEAD3,TF_E3_465_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_466,3xFLAG-NR2F1 ChIP-seq on human HepG2 genetically modified using CRISPR,NR2F1,HepG2,NR2F1,TF_E3_466_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_467,3xFLAG-ZNF639 ChIP-seq on human HepG2,ZNF639,HepG2,ZNF639,TF_E3_467_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_468,3xFLAG-KDM6A ChIP-seq on human HepG2,KDM6A,HepG2,KDM6A,TF_E3_468_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_469,3xFLAG-ZNF205 ChIP-seq on human HepG2 genetically modified using CRISPR,ZNF205,HepG2,ZNF205,TF_E3_469_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_47,BHLHE40 ChIP-seq on human GM12878,BHLHE40,GM12878,BHLHE40,TF_E3_47_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_470,3xFLAG-ZNF48 ChIP-seq on human HepG2,ZNF48,HepG2,ZNF48,TF_E3_470_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_471,3xFLAG-KMT2B ChIP-seq on human HepG2,KMT2B,HepG2,KMT2B,TF_E3_471_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_472,3xFLAG-KAT8 ChIP-seq on human HepG2,KAT8,HepG2,KAT8,TF_E3_472_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_473,3xFLAG-SOX13 ChIP-seq on human HepG2 genetically modified using CRISPR,SOX13,HepG2,SOX13,TF_E3_473_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_474,3xFLAG-MXD3 ChIP-seq on human HepG2,MXD3,HepG2,MXD3,TF_E3_474_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_475,3xFLAG-MYRF ChIP-seq on human HepG2,MYRF,HepG2,MYRF,TF_E3_475_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_476,3xFLAG-DRAP1 ChIP-seq on human HepG2,DRAP1,HepG2,DRAP1,TF_E3_476_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_477,3xFLAG-ZNF644 ChIP-seq on human HepG2 genetically modified using CRISPR,ZNF644,HepG2,ZNF644,TF_E3_477_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_478,3xFLAG-RXRB ChIP-seq on human HepG2 genetically modified using CRISPR,RXRB,HepG2,RXRB,TF_E3_478_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_479,3xFLAG-KLF9 ChIP-seq on human HepG2,KLF9,HepG2,KLF9,TF_E3_479_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_48,FOXK2 ChIP-seq on human GM12878,FOXK2,GM12878,FOXK2,TF_E3_48_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_480,3xFLAG-HMG20B ChIP-seq on human HepG2 genetically modified using CRISPR,HMG20B,HepG2,HMG20B,TF_E3_480_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_481,3xFLAG-IRF2 ChIP-seq on human HepG2,IRF2,HepG2,IRF2,TF_E3_481_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_482,3xFLAG-RFXANK ChIP-seq on human HepG2 genetically modified using CRISPR,RFXANK,HepG2,RFXANK,TF_E3_482_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_483,3xFLAG-ZKSCAN8 ChIP-seq on human HepG2 genetically modified using CRISPR,ZKSCAN8,HepG2,ZKSCAN8,TF_E3_483_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_484,3xFLAG-ZGPAT ChIP-seq on human HepG2,ZGPAT,HepG2,ZGPAT,TF_E3_484_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_485,3xFLAG-THAP11 ChIP-seq on human HepG2,THAP11,HepG2,THAP11,TF_E3_485_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_486,3xFLAG-NFYC ChIP-seq on human HepG2,NFYC,HepG2,NFYC,TF_E3_486_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_487,3xFLAG-ZFP1 ChIP-seq on human HepG2,ZFP1,HepG2,ZFP1,TF_E3_487_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_488,3xFLAG-PHF5A ChIP-seq on human HepG2,PHF5A,HepG2,PHF5A,TF_E3_488_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_489,3xFLAG-ZBTB26 ChIP-seq on human HepG2,ZBTB26,HepG2,ZBTB26,TF_E3_489_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_490,3xFLAG-CEBPA ChIP-seq on human HepG2,CEBPA,HepG2,CEBPA,TF_E3_490_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_491,3xFLAG-KDM1A ChIP-seq on human HepG2,KDM1A,HepG2,KDM1A,TF_E3_491_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_492,3xFLAG-ZFP64 ChIP-seq on human HepG2 genetically modified using CRISPR,ZFP64,HepG2,ZFP64,TF_E3_492_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_493,3xFLAG-ARID4B ChIP-seq on human HepG2,ARID4B,HepG2,ARID4B,TF_E3_493_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_494,3xFLAG-RBPJ ChIP-seq on human HepG2,RBPJ,HepG2,RBPJ,TF_E3_494_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_495,3xFLAG-KAT7 ChIP-seq on human HepG2,KAT7,HepG2,KAT7,TF_E3_495_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_496,3xFLAG-FOXP1 ChIP-seq on human HepG2 genetically modified using CRISPR,FOXP1,HepG2,FOXP1,TF_E3_496_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_497,3xFLAG-SAP130 ChIP-seq on human HepG2,SAP130,HepG2,SAP130,TF_E3_497_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_498,AGO1 ChIP-seq on human HepG2,AGO1,HepG2,AGO1,TF_E3_498_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_499,3xFLAG-HHEX ChIP-seq on human HepG2 genetically modified using CRISPR,HHEX,HepG2,HHEX,TF_E3_499_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_500,CBX1 ChIP-seq on human HepG2,CBX1,HepG2,CBX1,TF_E3_500_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_501,NCOR1 ChIP-seq on human HepG2,NCOR1,HepG2,NCOR1,TF_E3_501_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_502,XRCC5 ChIP-seq on human HepG2,XRCC5,HepG2,XRCC5,TF_E3_502_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_503,3xFLAG-ZNF580 ChIP-seq on human HepG2,ZNF580,HepG2,ZNF580,TF_E3_503_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_504,3xFLAG-MIER2 ChIP-seq on human HepG2,MIER2,HepG2,MIER2,TF_E3_504_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_505,3xFLAG-SP5 ChIP-seq on human HepG2 genetically modified using CRISPR,SP5,HepG2,SP5,TF_E3_505_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_506,3xFLAG-MXD4 ChIP-seq on human HepG2,MXD4,HepG2,MXD4,TF_E3_506_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_507,3xFLAG-ZBED5 ChIP-seq on human HepG2,ZBED5,HepG2,ZBED5,TF_E3_507_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_508,3xFLAG-FOXA3 ChIP-seq on human HepG2,FOXA3,HepG2,FOXA3,TF_E3_508_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_509,3xFLAG-ZNF7 ChIP-seq on human HepG2,ZNF7,HepG2,ZNF7,TF_E3_509_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_51,TBX21 ChIP-seq on human GM12878,TBX21,GM12878,TBX21,TF_E3_51_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_510,3xFLAG-SMAD4 ChIP-seq on human HepG2,SMAD4,HepG2,SMAD4,TF_E3_510_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_511,3xFLAG-PPARG ChIP-seq on human HepG2 genetically modified using CRISPR,PPARG,HepG2,PPARG,TF_E3_511_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_512,3xFLAG-RFX3 ChIP-seq on human HepG2 genetically modified using CRISPR,RFX3,HepG2,RFX3,TF_E3_512_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_513,3xFLAG-MIXL1 ChIP-seq on human HepG2 genetically modified using CRISPR,MIXL1,HepG2,MIXL1,TF_E3_513_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_514,3xFLAG-GATAD2A ChIP-seq on human HepG2,GATAD2A,HepG2,GATAD2A,TF_E3_514_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_515,3xFLAG-KLF6 ChIP-seq on human HepG2,KLF6,HepG2,KLF6,TF_E3_515_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_516,3xFLAG-GMEB2 ChIP-seq on human HepG2 genetically modified using CRISPR,GMEB2,HepG2,GMEB2,TF_E3_516_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_517,3xFLAG-ZNF3 ChIP-seq on human HepG2 genetically modified using CRISPR,ZNF3,HepG2,ZNF3,TF_E3_517_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_518,3xFLAG-NR2F6 ChIP-seq on human HepG2 genetically modified using CRISPR,NR2F6,HepG2,NR2F6,TF_E3_518_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_519,3xFLAG-ZNF792 ChIP-seq on human HepG2,ZNF792,HepG2,ZNF792,TF_E3_519_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_52,HCFC1 ChIP-seq on human GM12878,HCFC1,GM12878,HCFC1,TF_E3_52_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_520,3xFLAG-THRB ChIP-seq on human HepG2,THRB,HepG2,THRB,TF_E3_520_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_522,3xFLAG-IKZF5 ChIP-seq on human HepG2 genetically modified using CRISPR,IKZF5,HepG2,IKZF5,TF_E3_522_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_523,3xFLAG-NFKBIZ ChIP-seq on human HepG2,NFKBIZ,HepG2,NFKBIZ,TF_E3_523_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_524,HDAC3 ChIP-seq on human K562,HDAC3,K562,HDAC3,TF_E3_524_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_525,MITF ChIP-seq on human K562,MITF,K562,MITF,TF_E3_525_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_526,SMARCE1 ChIP-seq on human K562,SMARCE1,K562,SMARCE1,TF_E3_526_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_527,MGA ChIP-seq on human K562,MGA,K562,MGA,TF_E3_527_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_530,RFX1 ChIP-seq on human K562,RFX1,K562,RFX1,TF_E3_530_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_533,HDAC2 ChIP-seq on human K562,HDAC2,K562,HDAC2,TF_E3_533_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_534,ARNT ChIP-seq on human K562,ARNT,K562,ARNT,TF_E3_534_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_535,ELF1 ChIP-seq on human K562,ELF1,K562,ELF1,TF_E3_535_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_536,3xFLAG-ZNF146 ChIP-seq on human K562,ZNF146,K562,ZNF146,TF_E3_536_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_537,NCOA1 ChIP-seq on human K562,NCOA1,K562,NCOA1,TF_E3_537_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_539,PHB2 ChIP-seq on human K562,PHB2,K562,PHB2,TF_E3_539_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_54,KLF5 ChIP-seq on human GM12878,KLF5,GM12878,KLF5,TF_E3_54_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_540,ARID1B ChIP-seq on human K562,ARID1B,K562,ARID1B,TF_E3_540_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_541,ZNF318 ChIP-seq on human K562,ZNF318,K562,ZNF318,TF_E3_541_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_542,EP400 ChIP-seq on human K562,EP400,K562,EP400,TF_E3_542_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_543,HDAC1 ChIP-seq on human K562,HDAC1,K562,HDAC1,TF_E3_543_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_544,IKZF1 ChIP-seq on human K562,IKZF1,K562,IKZF1,TF_E3_544_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_545,3xFLAG-PBX2 ChIP-seq on human K562,PBX2,K562,PBX2,TF_E3_545_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_546,ZNF639 ChIP-seq on human K562,ZNF639,K562,ZNF639,TF_E3_546_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_547,CC2D1A ChIP-seq on human K562,CC2D1A,K562,CC2D1A,TF_E3_547_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_548,CHAMP1 ChIP-seq on human K562,CHAMP1,K562,CHAMP1,TF_E3_548_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_549,NFE2 ChIP-seq on human K562,NFE2,K562,NFE2,TF_E3_549_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_550,NR2C1 ChIP-seq on human K562,NR2C1,K562,NR2C1,TF_E3_550_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_553,ZZZ3 ChIP-seq on human K562,ZZZ3,K562,ZZZ3,TF_E3_553_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_554,MIER1 ChIP-seq on human K562,MIER1,K562,MIER1,TF_E3_554_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_556,TARDBP ChIP-seq on human K562,TARDBP,K562,TARDBP,TF_E3_556_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_557,ZNF639 ChIP-seq on human K562,ZNF639,K562,ZNF639,TF_E3_557_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_559,eGFP-ZNF507 ChIP-seq on human K562 genetically modified using stable transfection,ZNF507,K562,ZNF507,TF_E3_559_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_56,RAD51 ChIP-seq on human GM12878,RAD51,GM12878,RAD51,TF_E3_56_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_560,eGFP-ADNP ChIP-seq on human K562 genetically modified using stable transfection,ADNP,K562,ADNP,TF_E3_560_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_561,RBM25 ChIP-seq on human K562,RBM25,K562,RBM25,TF_E3_561_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_562,eGFP-VEZF1 ChIP-seq on human K562 genetically modified using CRISPR,VEZF1,K562,VEZF1,TF_E3_562_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_563,RNF2 ChIP-seq on human K562,RNF2,K562,RNF2,TF_E3_563_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_564,SMARCA5 ChIP-seq on human K562,SMARCA5,K562,SMARCA5,TF_E3_564_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_565,eGFP-ZNF83 ChIP-seq on human K562 genetically modified using stable transfection,ZNF83,K562,ZNF83,TF_E3_565_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_566,CREM ChIP-seq on human K562,CREM,K562,CREM,TF_E3_566_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_567,ZNF407 ChIP-seq on human K562,ZNF407,K562,ZNF407,TF_E3_567_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_568,MEIS2 ChIP-seq on human K562,MEIS2,K562,MEIS2,TF_E3_568_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_569,ZEB2 ChIP-seq on human K562,ZEB2,K562,ZEB2,TF_E3_569_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_57,TARDBP ChIP-seq on human GM12878,TARDBP,GM12878,TARDBP,TF_E3_57_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_570,THRAP3 ChIP-seq on human K562,THRAP3,K562,THRAP3,TF_E3_570_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_571,CBX5 ChIP-seq on human K562,CBX5,K562,CBX5,TF_E3_571_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_572,eGFP-ZBTB11 ChIP-seq on human K562 genetically modified using CRISPR,ZBTB11,K562,ZBTB11,TF_E3_572_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_573,POLR2A ChIP-seq on human K562,POLR2A,K562,POLR2A,TF_E3_573_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_576,SUPT5H ChIP-seq on human K562,SUPT5H,K562,SUPT5H,TF_E3_576_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_577,ETV6 ChIP-seq on human K562,ETV6,K562,ETV6,TF_E3_577_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_578,MYNN ChIP-seq on human K562,MYNN,K562,MYNN,TF_E3_578_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_579,MBD2 ChIP-seq on human K562,MBD2,K562,MBD2,TF_E3_579_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_58,NFATC3 ChIP-seq on human GM12878,NFATC3,GM12878,NFATC3,TF_E3_58_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_580,MNT ChIP-seq on human K562,MNT,K562,MNT,TF_E3_580_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_581,TAL1 ChIP-seq on human K562,TAL1,K562,TAL1,TF_E3_581_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_582,eGFP-CEBPG ChIP-seq on human K562 genetically modified using stable transfection,CEBPG,K562,CEBPG,TF_E3_582_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_583,eGFP-ZNF175 ChIP-seq on human K562 genetically modified using CRISPR,ZNF175,K562,ZNF175,TF_E3_583_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_584,eGFP-ZNF639 ChIP-seq on human K562 genetically modified using CRISPR,ZNF639,K562,ZNF639,TF_E3_584_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_585,eGFP-TFDP1 ChIP-seq on human K562 genetically modified using stable transfection,TFDP1,K562,TFDP1,TF_E3_585_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_586,HDAC2 ChIP-seq on human K562,HDAC2,K562,HDAC2,TF_E3_586_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_589,eGFP-BACH1 ChIP-seq on human K562 genetically modified using stable transfection,BACH1,K562,BACH1,TF_E3_589_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_59,ARNT ChIP-seq on human GM12878,ARNT,GM12878,ARNT,TF_E3_59_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_598,eGFP-CUX1 ChIP-seq on human K562 genetically modified using CRISPR,CUX1,K562,CUX1,TF_E3_598_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_60,STAT1 ChIP-seq on human GM12878,STAT1,GM12878,STAT1,TF_E3_60_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_601,EHMT2 ChIP-seq on human K562,EHMT2,K562,EHMT2,TF_E3_601_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_602,POLR2B ChIP-seq on human K562,POLR2B,K562,POLR2B,TF_E3_602_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_604,GTF2F1 ChIP-seq on human K562,GTF2F1,K562,GTF2F1,TF_E3_604_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_605,RFX1 ChIP-seq on human K562,RFX1,K562,RFX1,TF_E3_605_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_607,ZNF24 ChIP-seq on human K562,ZNF24,K562,ZNF24,TF_E3_607_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_608,ASH1L ChIP-seq on human K562,ASH1L,K562,ASH1L,TF_E3_608_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_609,E2F1 ChIP-seq on human K562,E2F1,K562,E2F1,TF_E3_609_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_61,BACH1 ChIP-seq on human GM12878,BACH1,GM12878,BACH1,TF_E3_61_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_610,SMARCA4 ChIP-seq on human K562,SMARCA4,K562,SMARCA4,TF_E3_610_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_611,NCOR1 ChIP-seq on human K562,NCOR1,K562,NCOR1,TF_E3_611_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_615,POLR2G ChIP-seq on human K562,POLR2G,K562,POLR2G,TF_E3_615_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_616,eGFP-ZNF512 ChIP-seq on human K562 genetically modified using stable transfection,ZNF512,K562,ZNF512,TF_E3_616_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_617,eGFP-ATF3 ChIP-seq on human K562 genetically modified using stable transfection,ATF3,K562,ATF3,TF_E3_617_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_618,3xFLAG-ATF1 ChIP-seq on human K562 genetically modified using CRISPR,ATF1,K562,ATF1,TF_E3_618_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_619,BCOR ChIP-seq on human K562,BCOR,K562,BCOR,TF_E3_619_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_62,HDGF ChIP-seq on human GM12878,HDGF,GM12878,HDGF,TF_E3_62_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_621,SIN3A ChIP-seq on human K562,SIN3A,K562,SIN3A,TF_E3_621_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_622,eGFP-ELF1 ChIP-seq on human K562 genetically modified using stable transfection,ELF1,K562,ELF1,TF_E3_622_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_623,TARDBP ChIP-seq on human K562,TARDBP,K562,TARDBP,TF_E3_623_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_624,eGFP-GTF2E2 ChIP-seq on human K562 genetically modified using stable transfection,GTF2E2,K562,GTF2E2,TF_E3_624_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_625,ELF4 ChIP-seq on human K562,ELF4,K562,ELF4,TF_E3_625_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_626,eGFP-ZNF148 ChIP-seq on human K562 genetically modified using stable transfection,ZNF148,K562,ZNF148,TF_E3_626_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_628,HNRNPK ChIP-seq on human K562,HNRNPK,K562,HNRNPK,TF_E3_628_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_629,eGFP-ZNF395 ChIP-seq on human K562 genetically modified using CRISPR,ZNF395,K562,ZNF395,TF_E3_629_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_63,PKNOX1 ChIP-seq on human GM12878,PKNOX1,GM12878,PKNOX1,TF_E3_63_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_630,ARID2 ChIP-seq on human K562,ARID2,K562,ARID2,TF_E3_630_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_631,ZFP36 ChIP-seq on human K562,ZFP36,K562,ZFP36,TF_E3_631_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_632,ZKSCAN1 ChIP-seq on human K562,ZKSCAN1,K562,ZKSCAN1,TF_E3_632_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_633,NONO ChIP-seq on human K562,NONO,K562,NONO,TF_E3_633_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_634,PKNOX1 ChIP-seq on human K562,PKNOX1,K562,PKNOX1,TF_E3_634_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_635,U2AF1 ChIP-seq on human K562,U2AF1,K562,U2AF1,TF_E3_635_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_636,IRF2 ChIP-seq on human K562,IRF2,K562,IRF2,TF_E3_636_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_637,PCBP1 ChIP-seq on human K562,PCBP1,K562,PCBP1,TF_E3_637_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_638,ATF4 ChIP-seq on human K562,ATF4,K562,ATF4,TF_E3_638_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_639,SMAD1 ChIP-seq on human K562,SMAD1,K562,SMAD1,TF_E3_639_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_641,E4F1 ChIP-seq on human K562,E4F1,K562,E4F1,TF_E3_641_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_642,NR2F6 ChIP-seq on human K562,NR2F6,K562,NR2F6,TF_E3_642_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_643,eGFP-ZNF644 ChIP-seq on human K562 genetically modified using stable transfection,ZNF644,K562,ZNF644,TF_E3_643_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_644,eGFP-ZNF584 ChIP-seq on human K562 genetically modified using CRISPR,ZNF584,K562,ZNF584,TF_E3_644_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_645,ZEB2 ChIP-seq on human K562,ZEB2,K562,ZEB2,TF_E3_645_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_646,HMBOX1 ChIP-seq on human K562,HMBOX1,K562,HMBOX1,TF_E3_646_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_648,eGFP-POLR2H ChIP-seq on human K562 genetically modified using stable transfection,POLR2H,K562,POLR2H,TF_E3_648_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_649,NONO ChIP-seq on human K562,NONO,K562,NONO,TF_E3_649_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_65,ZBTB33 ChIP-seq on human GM12878,ZBTB33,GM12878,ZBTB33,TF_E3_65_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_650,PRPF4 ChIP-seq on human K562,PRPF4,K562,PRPF4,TF_E3_650_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_653,3xFLAG-ZNF3 ChIP-seq on human K562,ZNF3,K562,ZNF3,TF_E3_653_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_654,FIP1L1 ChIP-seq on human K562,FIP1L1,K562,FIP1L1,TF_E3_654_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_655,ZMYM3 ChIP-seq on human K562,ZMYM3,K562,ZMYM3,TF_E3_655_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_656,MNT ChIP-seq on human K562,MNT,K562,MNT,TF_E3_656_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_657,eGFP-MEF2D ChIP-seq on human K562 genetically modified using stable transfection,MEF2D,K562,MEF2D,TF_E3_657_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_658,eGFP-GABPA ChIP-seq on human K562 genetically modified using stable transfection,GABPA,K562,GABPA,TF_E3_658_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_659,eGFP-ZNF197 ChIP-seq on human K562 genetically modified using CRISPR,ZNF197,K562,ZNF197,TF_E3_659_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_66,BMI1 ChIP-seq on human GM12878,BMI1,GM12878,BMI1,TF_E3_66_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_660,eGFP-ZBTB40 ChIP-seq on human K562 genetically modified using CRISPR,ZBTB40,K562,ZBTB40,TF_E3_660_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_661,HES1 ChIP-seq on human K562,HES1,K562,HES1,TF_E3_661_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_662,ZSCAN29 ChIP-seq on human K562,ZSCAN29,K562,ZSCAN29,TF_E3_662_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_663,SMARCC2 ChIP-seq on human K562,SMARCC2,K562,SMARCC2,TF_E3_663_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_664,eGFP-FOSL1 ChIP-seq on human K562 genetically modified using stable transfection,FOSL1,K562,FOSL1,TF_E3_664_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_665,E2F8 ChIP-seq on human K562,E2F8,K562,E2F8,TF_E3_665_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_666,GABPB1 ChIP-seq on human K562,GABPB1,K562,GABPB1,TF_E3_666_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_667,RBM22 ChIP-seq on human K562,RBM22,K562,RBM22,TF_E3_667_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_668,DPF2 ChIP-seq on human K562,DPF2,K562,DPF2,TF_E3_668_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_67,TRIM22 ChIP-seq on human GM12878,TRIM22,GM12878,TRIM22,TF_E3_67_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_670,eGFP-ZNF766 ChIP-seq on human K562 genetically modified using CRISPR,ZNF766,K562,ZNF766,TF_E3_670_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_671,BRD4 ChIP-seq on human K562,BRD4,K562,BRD4,TF_E3_671_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_672,NEUROD1 ChIP-seq on human K562,NEUROD1,K562,NEUROD1,TF_E3_672_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_673,eGFP-ATF1 ChIP-seq on human K562 genetically modified using stable transfection,ATF1,K562,ATF1,TF_E3_673_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_674,C11orf30 ChIP-seq on human K562,C11orf30,K562,EMSY,TF_E3_674_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_676,eGFP-CEBPB ChIP-seq on human K562 genetically modified using stable transfection,CEBPB,K562,CEBPB,TF_E3_676_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_678,RNF2 ChIP-seq on human K562,RNF2,K562,RNF2,TF_E3_678_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_679,eGFP-ZNF740 ChIP-seq on human K562 genetically modified using stable transfection,ZNF740,K562,ZNF740,TF_E3_679_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_680,DPF2 ChIP-seq on human K562,DPF2,K562,DPF2,TF_E3_680_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_681,NFIC ChIP-seq on human K562,NFIC,K562,NFIC,TF_E3_681_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_682,MITF ChIP-seq on human K562,MITF,K562,MITF,TF_E3_682_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_683,NBN ChIP-seq on human K562,NBN,K562,NBN,TF_E3_683_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_684,TRIM24 ChIP-seq on human K562,TRIM24,K562,TRIM24,TF_E3_684_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_685,eGFP-E2F5 ChIP-seq on human K562 genetically modified using CRISPR,E2F5,K562,E2F5,TF_E3_685_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_686,LEF1 ChIP-seq on human K562,LEF1,K562,LEF1,TF_E3_686_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_687,ZNF184 ChIP-seq on human K562,ZNF184,K562,ZNF184,TF_E3_687_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_688,TCF12 ChIP-seq on human K562,TCF12,K562,TCF12,TF_E3_688_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_689,ZBTB40 ChIP-seq on human K562,ZBTB40,K562,ZBTB40,TF_E3_689_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_69,RELB ChIP-seq on human GM12878,RELB,GM12878,RELB,TF_E3_69_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_690,CREB3L1 ChIP-seq on human K562,CREB3L1,K562,CREB3L1,TF_E3_690_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_691,DEAF1 ChIP-seq on human K562,DEAF1,K562,DEAF1,TF_E3_691_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_693,NCOR1 ChIP-seq on human K562,NCOR1,K562,NCOR1,TF_E3_693_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_694,TRIM28 ChIP-seq on human K562,TRIM28,K562,TRIM28,TF_E3_694_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_696,SMAD5 ChIP-seq on human K562,SMAD5,K562,SMAD5,TF_E3_696_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_7,RFX5 ChIP-seq on human A549,RFX5,A549,RFX5,TF_E3_7_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_700,REST ChIP-seq on human K562,REST,K562,REST,TF_E3_700_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_701,ZHX1 ChIP-seq on human K562,ZHX1,K562,ZHX1,TF_E3_701_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_703,SKIL ChIP-seq on human K562,SKIL,K562,SKIL,TF_E3_703_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_704,L3MBTL2 ChIP-seq on human K562,L3MBTL2,K562,L3MBTL2,TF_E3_704_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_706,IKZF1 ChIP-seq on human K562,IKZF1,K562,IKZF1,TF_E3_706_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_707,eGFP-CEBPG ChIP-seq on human K562 genetically modified using stable transfection,CEBPG,K562,CEBPG,TF_E3_707_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_709,eGFP-PBX2 ChIP-seq on human K562 genetically modified using stable transfection,PBX2,K562,PBX2,TF_E3_709_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_71,E4F1 ChIP-seq on human GM12878,E4F1,GM12878,E4F1,TF_E3_71_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_710,NFRKB ChIP-seq on human K562,NFRKB,K562,NFRKB,TF_E3_710_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_711,eGFP-NFE2 ChIP-seq on human K562 genetically modified using stable transfection,NFE2,K562,NFE2,TF_E3_711_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_712,KLF16 ChIP-seq on human K562,KLF16,K562,KLF16,TF_E3_712_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_713,CTBP1 ChIP-seq on human K562,CTBP1,K562,CTBP1,TF_E3_713_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_715,ZBTB2 ChIP-seq on human K562,ZBTB2,K562,ZBTB2,TF_E3_715_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_716,HDAC1 ChIP-seq on human K562,HDAC1,K562,HDAC1,TF_E3_716_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_717,ZNF316 ChIP-seq on human K562,ZNF316,K562,ZNF316,TF_E3_717_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_72,IKZF1 ChIP-seq on human GM12878,IKZF1,GM12878,IKZF1,TF_E3_72_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_721,ZBTB11 ChIP-seq on human K562,ZBTB11,K562,ZBTB11,TF_E3_721_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_722,eGFP-NR2C2 ChIP-seq on human K562 genetically modified using stable transfection,NR2C2,K562,NR2C2,TF_E3_722_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_723,eGFP-ZNF589 ChIP-seq on human K562 genetically modified using CRISPR,ZNF589,K562,ZNF589,TF_E3_723_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_725,FOXM1 ChIP-seq on human K562,FOXM1,K562,FOXM1,TF_E3_725_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_726,RAD51 ChIP-seq on human K562,RAD51,K562,RAD51,TF_E3_726_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_727,ZBTB33 ChIP-seq on human K562,ZBTB33,K562,ZBTB33,TF_E3_727_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_728,eGFP-ZFX ChIP-seq on human K562 genetically modified using CRISPR,ZFX,K562,ZFX,TF_E3_728_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_729,NR2F1 ChIP-seq on human K562,NR2F1,K562,NR2F1,TF_E3_729_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_73,MLLT1 ChIP-seq on human GM12878,MLLT1,GM12878,MLLT1,TF_E3_73_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_730,NFRKB ChIP-seq on human K562,NFRKB,K562,NFRKB,TF_E3_730_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_731,eGFP-USF2 ChIP-seq on human K562 genetically modified using CRISPR,USF2,K562,USF2,TF_E3_731_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_732,TARDBP ChIP-seq on human K562,TARDBP,K562,TARDBP,TF_E3_732_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_733,ZSCAN29 ChIP-seq on human K562,ZSCAN29,K562,ZSCAN29,TF_E3_733_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_735,ZNF184 ChIP-seq on human K562,ZNF184,K562,ZNF184,TF_E3_735_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_736,RBFOX2 ChIP-seq on human K562,RBFOX2,K562,RBFOX2,TF_E3_736_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_737,ZNF316 ChIP-seq on human K562,ZNF316,K562,ZNF316,TF_E3_737_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_739,eGFP-FOXJ2 ChIP-seq on human K562 genetically modified using stable transfection,FOXJ2,K562,FOXJ2,TF_E3_739_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_741,ZBED1 ChIP-seq on human K562,ZBED1,K562,ZBED1,TF_E3_741_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_742,ATF3 ChIP-seq on human K562,ATF3,K562,ATF3,TF_E3_742_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_743,NCOA2 ChIP-seq on human K562,NCOA2,K562,NCOA2,TF_E3_743_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_744,RNF2 ChIP-seq on human K562,RNF2,K562,RNF2,TF_E3_744_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_746,eGFP-IRF9 ChIP-seq on human K562 genetically modified using stable transfection,IRF9,K562,IRF9,TF_E3_746_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_747,NCOA6 ChIP-seq on human K562,NCOA6,K562,NCOA6,TF_E3_747_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_748,SAFB ChIP-seq on human K562,SAFB,K562,SAFB,TF_E3_748_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_749,SIN3B ChIP-seq on human K562,SIN3B,K562,SIN3B,TF_E3_749_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_75,ARID3A ChIP-seq on human GM12878,ARID3A,GM12878,ARID3A,TF_E3_75_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_752,HNRNPL ChIP-seq on human K562,HNRNPL,K562,HNRNPL,TF_E3_752_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_753,AFF1 ChIP-seq on human K562,AFF1,K562,AFF1,TF_E3_753_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_754,MNT ChIP-seq on human K562,MNT,K562,MNT,TF_E3_754_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_755,HNRNPLL ChIP-seq on human K562,HNRNPLL,K562,HNRNPLL,TF_E3_755_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_757,BRD9 ChIP-seq on human K562,BRD9,K562,BRD9,TF_E3_757_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_758,KDM1A ChIP-seq on human K562,KDM1A,K562,KDM1A,TF_E3_758_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_759,NRF1 ChIP-seq on human K562,NRF1,K562,NRF1,TF_E3_759_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_76,ZFP36 ChIP-seq on human GM12878,ZFP36,GM12878,ZFP36,TF_E3_76_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_760,TCF7 ChIP-seq on human K562,TCF7,K562,TCF7,TF_E3_760_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_761,EGR1 ChIP-seq on human K562,EGR1,K562,EGR1,TF_E3_761_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_762,PRDM10 ChIP-seq on human K562,PRDM10,K562,PRDM10,TF_E3_762_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_763,ZNF282 ChIP-seq on human K562,ZNF282,K562,ZNF282,TF_E3_763_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_764,ZNF24 ChIP-seq on human K562,ZNF24,K562,ZNF24,TF_E3_764_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_765,EGR1 ChIP-seq on human K562,EGR1,K562,EGR1,TF_E3_765_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_766,eGFP-NR2C1 ChIP-seq on human K562 genetically modified using stable transfection,NR2C1,K562,NR2C1,TF_E3_766_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_767,E2F1 ChIP-seq on human K562,E2F1,K562,E2F1,TF_E3_767_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_768,JUNB ChIP-seq on human K562,JUNB,K562,JUNB,TF_E3_768_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_769,MTA3 ChIP-seq on human K562,MTA3,K562,MTA3,TF_E3_769_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_773,XRCC5 ChIP-seq on human K562,XRCC5,K562,XRCC5,TF_E3_773_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_775,HDGF ChIP-seq on human K562,HDGF,K562,HDGF,TF_E3_775_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_776,FOXK2 ChIP-seq on human K562,FOXK2,K562,FOXK2,TF_E3_776_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_777,FOXK2 ChIP-seq on human K562,FOXK2,K562,FOXK2,TF_E3_777_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_778,NFATC3 ChIP-seq on human K562,NFATC3,K562,NFATC3,TF_E3_778_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_779,RLF ChIP-seq on human K562,RLF,K562,RLF,TF_E3_779_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_78,JUNB ChIP-seq on human GM12878,JUNB,GM12878,JUNB,TF_E3_78_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_780,CBX1 ChIP-seq on human K562,CBX1,K562,CBX1,TF_E3_780_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_781,LEF1 ChIP-seq on human K562,LEF1,K562,LEF1,TF_E3_781_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_782,RUNX1 ChIP-seq on human K562,RUNX1,K562,RUNX1,TF_E3_782_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_783,DACH1 ChIP-seq on human K562,DACH1,K562,DACH1,TF_E3_783_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_784,KDM4B ChIP-seq on human K562,KDM4B,K562,KDM4B,TF_E3_784_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_785,ILF3 ChIP-seq on human K562,ILF3,K562,ILF3,TF_E3_785_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_786,MTA2 ChIP-seq on human K562,MTA2,K562,MTA2,TF_E3_786_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_788,eGFP-TAF7 ChIP-seq on human K562 genetically modified using stable transfection,TAF7,K562,TAF7,TF_E3_788_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_789,eGFP-KLF1 ChIP-seq on human K562 genetically modified using stable transfection,KLF1,K562,KLF1,TF_E3_789_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_791,ATF7 ChIP-seq on human K562,ATF7,K562,ATF7,TF_E3_791_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_792,RUNX1 ChIP-seq on human K562,RUNX1,K562,RUNX1,TF_E3_792_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_793,NRF1 ChIP-seq on human K562,NRF1,K562,NRF1,TF_E3_793_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_795,eGFP-ZNF24 ChIP-seq on human K562 genetically modified using stable transfection,ZNF24,K562,ZNF24,TF_E3_795_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_796,SOX6 ChIP-seq on human K562,SOX6,K562,SOX6,TF_E3_796_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_797,ZFP91 ChIP-seq on human K562,ZFP91,K562,ZFP91,TF_E3_797_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_799,GATAD2A ChIP-seq on human K562,GATAD2A,K562,GATAD2A,TF_E3_799_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_8,SIN3A ChIP-seq on human A549,SIN3A,A549,SIN3A,TF_E3_8_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_80,TARDBP ChIP-seq on human GM12878,TARDBP,GM12878,TARDBP,TF_E3_80_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_800,PHF21A ChIP-seq on human K562,PHF21A,K562,PHF21A,TF_E3_800_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_801,CBFA2T2 ChIP-seq on human K562,CBFA2T2,K562,CBFA2T2,TF_E3_801_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_802,CBFA2T3 ChIP-seq on human K562,CBFA2T3,K562,CBFA2T3,TF_E3_802_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_804,GATAD2B ChIP-seq on human K562,GATAD2B,K562,GATAD2B,TF_E3_804_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_805,ZNF592 ChIP-seq on human K562,ZNF592,K562,ZNF592,TF_E3_805_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_806,TCF12 ChIP-seq on human K562,TCF12,K562,TCF12,TF_E3_806_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_807,ARNT ChIP-seq on human K562,ARNT,K562,ARNT,TF_E3_807_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_808,NCOA1 ChIP-seq on human K562,NCOA1,K562,NCOA1,TF_E3_808_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_81,SMAD5 ChIP-seq on human GM12878,SMAD5,GM12878,SMAD5,TF_E3_81_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_810,MYBL2 ChIP-seq on human K562,MYBL2,K562,MYBL2,TF_E3_810_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_811,CHAMP1 ChIP-seq on human K562,CHAMP1,K562,CHAMP1,TF_E3_811_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_812,TRIM24 ChIP-seq on human K562,TRIM24,K562,TRIM24,TF_E3_812_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_814,MLLT1 ChIP-seq on human K562,MLLT1,K562,MLLT1,TF_E3_814_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_815,ZBTB5 ChIP-seq on human K562,ZBTB5,K562,ZBTB5,TF_E3_815_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_816,DDX20 ChIP-seq on human K562,DDX20,K562,DDX20,TF_E3_816_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_817,ATF2 ChIP-seq on human K562,ATF2,K562,ATF2,TF_E3_817_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_818,HDGF ChIP-seq on human K562,HDGF,K562,HDGF,TF_E3_818_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_819,ESRRA ChIP-seq on human K562,ESRRA,K562,ESRRA,TF_E3_819_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_82,GATAD2B ChIP-seq on human GM12878,GATAD2B,GM12878,GATAD2B,TF_E3_82_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_821,MLLT1 ChIP-seq on human K562,MLLT1,K562,MLLT1,TF_E3_821_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_822,eGFP-NR4A1 ChIP-seq on human K562 genetically modified using stable transfection,NR4A1,K562,NR4A1,TF_E3_822_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_823,ZNF24 ChIP-seq on human K562,ZNF24,K562,ZNF24,TF_E3_823_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_824,MTA2 ChIP-seq on human K562,MTA2,K562,MTA2,TF_E3_824_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_827,KDM1A ChIP-seq on human K562,KDM1A,K562,KDM1A,TF_E3_827_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_828,eGFP-IRF1 ChIP-seq on human K562 genetically modified using stable transfection,IRF1,K562,IRF1,TF_E3_828_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_829,eGFP-HINFP ChIP-seq on human K562 genetically modified using stable transfection,HINFP,K562,HINFP,TF_E3_829_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_83,DPF2 ChIP-seq on human GM12878,DPF2,GM12878,DPF2,TF_E3_83_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_830,MTA1 ChIP-seq on human K562,MTA1,K562,MTA1,TF_E3_830_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_831,eGFP-KLF13 ChIP-seq on human K562 genetically modified using stable transfection,KLF13,K562,KLF13,TF_E3_831_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_832,NRF1 ChIP-seq on human K562,NRF1,K562,NRF1,TF_E3_832_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_834,eGFP-CREB3 ChIP-seq on human K562 genetically modified using stable transfection,CREB3,K562,CREB3,TF_E3_834_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_836,SP1 ChIP-seq on human K562,SP1,K562,SP1,TF_E3_836_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_837,eGFP-MAFG ChIP-seq on human K562 genetically modified using stable transfection,MAFG,K562,MAFG,TF_E3_837_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_838,eGFP-DIDO1 ChIP-seq on human K562 genetically modified using stable transfection,DIDO1,K562,DIDO1,TF_E3_838_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_839,GMEB1 ChIP-seq on human K562,GMEB1,K562,GMEB1,TF_E3_839_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_84,SMAD1 ChIP-seq on human GM12878,SMAD1,GM12878,SMAD1,TF_E3_84_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_841,eGFP-ID3 ChIP-seq on human K562 genetically modified using stable transfection,ID3,K562,ID3,TF_E3_841_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_842,eGFP-ZKSCAN8 ChIP-seq on human K562 genetically modified using CRISPR,ZKSCAN8,K562,ZKSCAN8,TF_E3_842_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_843,NCOA2 ChIP-seq on human K562,NCOA2,K562,NCOA2,TF_E3_843_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_844,ZNF830 ChIP-seq on human K562,ZNF830,K562,ZNF830,TF_E3_844_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_845,SMARCA4 ChIP-seq on human K562,SMARCA4,K562,SMARCA4,TF_E3_845_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_847,PHF20 ChIP-seq on human K562,PHF20,K562,PHF20,TF_E3_847_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_848,GTF2F1 ChIP-seq on human K562,GTF2F1,K562,GTF2F1,TF_E3_848_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_849,eGFP-NFE2L1 ChIP-seq on human K562 genetically modified using stable transfection,NFE2L1,K562,NFE2L1,TF_E3_849_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_85,CBFB ChIP-seq on human GM12878,CBFB,GM12878,CBFB,TF_E3_85_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_850,eGFP-ETV1 ChIP-seq on human K562 genetically modified using stable transfection,ETV1,K562,ETV1,TF_E3_850_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_851,TAF9B ChIP-seq on human K562,TAF9B,K562,TAF9B,TF_E3_851_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_852,RB1 ChIP-seq on human K562,RB1,K562,RB1,TF_E3_852_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_853,AFF1 ChIP-seq on human K562,AFF1,K562,AFF1,TF_E3_853_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_854,POLR2A ChIP-seq on human K562,POLR2A,K562,POLR2A,TF_E3_854_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_855,RBM39 ChIP-seq on human K562,RBM39,K562,RBM39,TF_E3_855_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_856,NFATC3 ChIP-seq on human K562,NFATC3,K562,NFATC3,TF_E3_856_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_857,ARNT ChIP-seq on human K562,ARNT,K562,ARNT,TF_E3_857_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_859,HDAC1 ChIP-seq on human K562,HDAC1,K562,HDAC1,TF_E3_859_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_86,ATF7 ChIP-seq on human GM12878,ATF7,GM12878,ATF7,TF_E3_86_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_861,AGO1 ChIP-seq on human K562,AGO1,K562,AGO1,TF_E3_861_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_863,NCOR1 ChIP-seq on human K562,NCOR1,K562,NCOR1,TF_E3_863_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_867,CLOCK ChIP-seq on human MCF-7,CLOCK,MCF-7,CLOCK,TF_E3_867_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_868,GATA3 ChIP-seq on human MCF-7,GATA3,MCF-7,GATA3,TF_E3_868_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_869,MTA1 ChIP-seq on human MCF-7,MTA1,MCF-7,MTA1,TF_E3_869_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_87,ZNF143 ChIP-seq on human GM12878,ZNF143,GM12878,ZNF143,TF_E3_87_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_870,ZNF217 ChIP-seq on human MCF-7,ZNF217,MCF-7,ZNF217,TF_E3_870_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_872,CUX1 ChIP-seq on human MCF-7,CUX1,MCF-7,CUX1,TF_E3_872_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_873,ELK1 ChIP-seq on human MCF-7,ELK1,MCF-7,ELK1,TF_E3_873_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_875,NEUROD1 ChIP-seq on human MCF-7,NEUROD1,MCF-7,NEUROD1,TF_E3_875_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_878,ZBTB33 ChIP-seq on human MCF-7,ZBTB33,MCF-7,ZBTB33,TF_E3_878_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_879,CREB1 ChIP-seq on human MCF-7,CREB1,MCF-7,CREB1,TF_E3_879_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_88,EED ChIP-seq on human GM12878,EED,GM12878,EED,TF_E3_88_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_880,FOS ChIP-seq on human MCF-7,FOS,MCF-7,FOS,TF_E3_880_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_882,MBD2 ChIP-seq on human MCF-7,MBD2,MCF-7,MBD2,TF_E3_882_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_885,FOXA1 ChIP-seq on human MCF-7,FOXA1,MCF-7,FOXA1,TF_E3_885_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_889,ATF7 ChIP-seq on human MCF-7,ATF7,MCF-7,ATF7,TF_E3_889_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_89,CBX5 ChIP-seq on human GM12878,CBX5,GM12878,CBX5,TF_E3_89_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_892,CREB1 ChIP-seq on human MCF-7,CREB1,MCF-7,CREB1,TF_E3_892_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_893,3xFLAG-RAD21 ChIP-seq on human MCF-7 genetically modified using CRISPR,RAD21,MCF-7,RAD21,TF_E3_893_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_894,NFIB ChIP-seq on human MCF-7,NFIB,MCF-7,NFIB,TF_E3_894_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_895,ZNF574 ChIP-seq on human MCF-7,ZNF574,MCF-7,ZNF574,TF_E3_895_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_896,NCOA3 ChIP-seq on human MCF-7,NCOA3,MCF-7,NCOA3,TF_E3_896_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_898,RFX1 ChIP-seq on human MCF-7,RFX1,MCF-7,RFX1,TF_E3_898_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_9,REST ChIP-seq on human A549,REST,A549,REST,TF_E3_9_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_90,TRIM22 ChIP-seq on human GM12878,TRIM22,GM12878,TRIM22,TF_E3_90_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_900,TARDBP ChIP-seq on human MCF-7,TARDBP,MCF-7,TARDBP,TF_E3_900_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_904,eGFP-CEBPG ChIP-seq on human MCF-7 genetically modified using stable transfection,CEBPG,MCF-7,CEBPG,TF_E3_904_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_905,eGFP-KLF9 ChIP-seq on human MCF-7 genetically modified using stable transfection,KLF9,MCF-7,KLF9,TF_E3_905_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_907,ZBTB40 ChIP-seq on human MCF-7,ZBTB40,MCF-7,ZBTB40,TF_E3_907_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_908,SIN3A ChIP-seq on human MCF-7,SIN3A,MCF-7,SIN3A,TF_E3_908_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_909,eGFP-KLF4 ChIP-seq on human MCF-7 genetically modified using stable transfection,KLF4,MCF-7,KLF4,TF_E3_909_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_91,SMARCA5 ChIP-seq on human GM12878,SMARCA5,GM12878,SMARCA5,TF_E3_91_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_910,CLOCK ChIP-seq on human MCF-7,CLOCK,MCF-7,CLOCK,TF_E3_910_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_914,DPF2 ChIP-seq on human MCF-7,DPF2,MCF-7,DPF2,TF_E3_914_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_915,HCFC1 ChIP-seq on human MCF-7,HCFC1,MCF-7,HCFC1,TF_E3_915_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_917,CHD1 ChIP-seq on human MCF-7,CHD1,MCF-7,CHD1,TF_E3_917_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_918,RFX1 ChIP-seq on human MCF-7,RFX1,MCF-7,RFX1,TF_E3_918_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_919,eGFP-FOSL2 ChIP-seq on human MCF-7 genetically modified using stable transfection,FOSL2,MCF-7,FOSL2,TF_E3_919_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_92,ZNF24 ChIP-seq on human GM12878,ZNF24,GM12878,ZNF24,TF_E3_92_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_920,TRIM22 ChIP-seq on human MCF-7,TRIM22,MCF-7,TRIM22,TF_E3_920_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_925,ESRRA ChIP-seq on human MCF-7,ESRRA,MCF-7,ESRRA,TF_E3_925_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_927,ZNF687 ChIP-seq on human MCF-7,ZNF687,MCF-7,ZNF687,TF_E3_927_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_928,GATAD2B ChIP-seq on human MCF-7,GATAD2B,MCF-7,GATAD2B,TF_E3_928_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_929,NFIB ChIP-seq on human MCF-7,NFIB,MCF-7,NFIB,TF_E3_929_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_93,NR2F1 ChIP-seq on human GM12878,NR2F1,GM12878,NR2F1,TF_E3_93_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_930,PKNOX1 ChIP-seq on human MCF-7,PKNOX1,MCF-7,PKNOX1,TF_E3_930_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_931,ZNF579 ChIP-seq on human MCF-7,ZNF579,MCF-7,ZNF579,TF_E3_931_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_932,SREBF1 ChIP-seq on human MCF-7,SREBF1,MCF-7,SREBF1,TF_E3_932_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_933,ZNF444 ChIP-seq on human MCF-7,ZNF444,MCF-7,ZNF444,TF_E3_933_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_934,MAZ ChIP-seq on human MCF-7,MAZ,MCF-7,MAZ,TF_E3_934_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_935,GTF2F1 ChIP-seq on human MCF-7,GTF2F1,MCF-7,GTF2F1,TF_E3_935_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_937,RAD51 ChIP-seq on human MCF-7,RAD51,MCF-7,RAD51,TF_E3_937_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_938,SUZ12 ChIP-seq on human MCF-7,SUZ12,MCF-7,SUZ12,TF_E3_938_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_941,RCOR1 ChIP-seq on human MCF-7,RCOR1,MCF-7,RCOR1,TF_E3_941_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_942,RFX5 ChIP-seq on human MCF-7,RFX5,MCF-7,RFX5,TF_E3_942_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_943,MAFK ChIP-seq on human MCF-7,MAFK,MCF-7,MAFK,TF_E3_943_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_947,ZHX2 ChIP-seq on human MCF-7,ZHX2,MCF-7,ZHX2,TF_E3_947_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_95,NR2C1 ChIP-seq on human GM12878,NR2C1,GM12878,NR2C1,TF_E3_95_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_950,SMARCE1 ChIP-seq on human MCF-7,SMARCE1,MCF-7,SMARCE1,TF_E3_950_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_951,ELF1 ChIP-seq on human MCF-7,ELF1,MCF-7,ELF1,TF_E3_951_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_952,BMI1 ChIP-seq on human MCF-7,BMI1,MCF-7,BMI1,TF_E3_952_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_954,MNT ChIP-seq on human MCF-7,MNT,MCF-7,MNT,TF_E3_954_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_957,SMARCA5 ChIP-seq on human MCF-7,SMARCA5,MCF-7,SMARCA5,TF_E3_957_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_958,NRF1 ChIP-seq on human MCF-7,NRF1,MCF-7,NRF1,TF_E3_958_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_959,CTCF ChIP-seq on human MCF-7,CTCF,MCF-7,CTCF,TF_E3_959_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_96,ELF1 ChIP-seq on human GM12878,ELF1,GM12878,ELF1,TF_E3_96_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_961,CTBP1 ChIP-seq on human MCF-7,CTBP1,MCF-7,CTBP1,TF_E3_961_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_962,ZBTB7B ChIP-seq on human MCF-7,ZBTB7B,MCF-7,ZBTB7B,TF_E3_962_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_963,ZNF24 ChIP-seq on human MCF-7,ZNF24,MCF-7,ZNF24,TF_E3_963_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_964,ZFX ChIP-seq on human MCF-7,ZFX,MCF-7,ZFX,TF_E3_964_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_967,CHD2 ChIP-seq on human SK-N-SH,CHD2,SK-N-SH,CHD2,TF_E3_967_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_969,RCOR1 ChIP-seq on human SK-N-SH,RCOR1,SK-N-SH,RCOR1,TF_E3_969_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_97,ZNF592 ChIP-seq on human GM12878,ZNF592,GM12878,ZNF592,TF_E3_97_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_970,CTCF ChIP-seq on human SK-N-SH,CTCF,SK-N-SH,CTCF,TF_E3_970_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_98,RB1 ChIP-seq on human GM12878,RB1,GM12878,RB1,TF_E3_98_hg38_300_top10k_vs_neg1x_avg_weights.out
+TF_E3_99,TCF12 ChIP-seq on human GM12878,TCF12,GM12878,TCF12,TF_E3_99_hg38_300_top10k_vs_neg1x_avg_weights.out
