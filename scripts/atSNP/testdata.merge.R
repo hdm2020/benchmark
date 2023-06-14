@@ -14,7 +14,7 @@ outfile<-'./testdata/atSNP.jaspar2022.merged.expe.pred.results.txt'
 model_tf<-read.csv(modeltf,stringsAsFactors=F)
 result<-read.table(predfile,header=T,sep='\t',stringsAsFactors=F)
 result<-result[,c('motif','snpid','log_lik_ratio','pval_ref','pval_snp','pval_diff','pval_rank')]
-colnames(result)[,1:2]<-c('model_name','TF_SYMBOL')
+colnames(result)[,1:2]<-c('model_name','snp')
 result<-merge(result,model_tf)
 
 #merge and output
