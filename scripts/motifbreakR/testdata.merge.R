@@ -1,12 +1,12 @@
 #merge experimental and predictive difference value(2 alleles off snp) of TF binding
 
 #read evaluation data
+evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 evaldata<-read.table(evaldatafile,sep='\t',header=T,stringsAsFactors = F)
 evaldata<-evaldata[,c('snp','pbs','pval','TF_SYMBOL')]
 
 #JASPAR 2022
 modeltf<-'./testdata/evaldata_intermotifbreakR.jaspar587tf.csv'
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 predfile<-'./testdata/pwm_jaspar2022/results/motifbreakR.jaspar2022.txt'
 outfile<-'./testdata/motifbreakR.jaspar2022.merged.expe.pred.results.txt'
 
@@ -25,7 +25,6 @@ write.table(df,outfile,col.names=T,row.names=F,quote=F,sep='\t')
 
 #HOCOMOCO v11
 modeltf<-'./testdata/evaldata_intermotifbreakR.hocomoco400tf.csv'
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 predfile<-'./testdata/pwm_hocomocov11/results/motifbreakR.hocomocov11.txt'
 outfile<-'./testdata/motifbreakR.hocomocov11.merged.expe.pred.results.txt'
 
