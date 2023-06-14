@@ -10,7 +10,7 @@
 motif<-read.table('jaspar2022.name.txt',header=T,sep='\t',stringsAsFactors=F)#841 motif
 motif$TF<-toupper(motif$tf)
 df<-motif[motif$tf==motif$TF,]#695 motif,650tf,60 are 2tf-intersection
-df<-df[!(df$model_id %in% c('MA0108.2','MA0259.1','MA0619.1','MA1540.2')),]#MA0108.2 TBP(no species)；MA0259.1 ARNT::HIF1A(multi-species)；MA0619.1 LIN54(Gallus gallus)；MA1540.2 NR5A1(Mus musculus)
+df<-df[!(df$motif_id %in% c('MA0108.2','MA0259.1','MA0619.1','MA1540.2')),]#MA0108.2 TBP(no species)；MA0259.1 ARNT::HIF1A(multi-species)；MA0619.1 LIN54(Gallus gallus)；MA1540.2 NR5A1(Mus musculus)
 #modify TF name as standard HGNC symbol
 library(org.Hs.eg.db)
 tfid<-mapIds(org.Hs.eg.db,df$tf,'ENTREZID','SYMBOL')
