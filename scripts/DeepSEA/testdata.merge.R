@@ -23,6 +23,6 @@ evaldata<-read.table(evaldatafile,sep='\t',header=T,stringsAsFactors = F)
 evaldata<-evaldata[,c('snp','pbs','pval','TF_SYMBOL')]
 
 #merge and output
-df<-merge(evaldata,result,by=c('snp','TF_SYMBOL'))
+df<-merge(evaldata,allresult,by=c('snp','TF_SYMBOL'))
 write.table(df,outfile,col.names=T,row.names=F,quote=F,sep='\t')
 
