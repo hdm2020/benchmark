@@ -3,11 +3,11 @@
 
 modeltf<-'./deepsea.689tf(1na).csv'
 evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
-outfile1<-'./testdata/evaldata_interdeepsea689tf.csv'
+outfile<-'./testdata/evaldata_interdeepsea689tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
 #intersection
 tf<-read.csv(evaldatatf,stringsAsFactors=F)
 df<-df[df$TF_SYMBOL %in% tf$TF_SYMBOL,]
-write.csv(df,outfile1,row.names=F,quote=F)
+write.csv(df,outfile,row.names=F,quote=F)
 
