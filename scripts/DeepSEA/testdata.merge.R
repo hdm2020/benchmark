@@ -2,7 +2,7 @@
 
 modeltf<-'./testdata/evaldata_interdeepsea689tf.csv'
 evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
-predfile<-'./testdata/results/deepsea.txt'
+predfile<-'./testdata/results/DeepSEA.txt'
 outfile<-'./testdata/DeepSEA.merged.expe.pred.results.txt'
 
 #read prediction result
