@@ -14,7 +14,7 @@ outfile<-'./testdata/motifbreakR.jaspar2022.merged.expe.pred.results.txt'
 model_tf<-read.csv(modeltf,stringsAsFactors=F)
 result<-read.table(predfile,header=T,sep='\t',stringsAsFactors=F)
 result<-result[,c('SNP_id','geneSymbol','providerName','alleleDiff','alleleEffectSize')]
-colnames(result)[,1:3]<-c('snp','TF_SYMBOL','motif')
+colnames(result)[1:3]<-c('snp','TF_SYMBOL','motif')
 result$snp<-gsub(':','_',result$snp)
 result<-merge(result,model_tf)
 
@@ -32,7 +32,7 @@ outfile<-'./testdata/motifbreakR.hocomocov11.merged.expe.pred.results.txt'
 model_tf<-read.csv(modeltf,stringsAsFactors=F)
 result<-read.table(predfile,header=T,sep='\t',stringsAsFactors=F)
 result<-result[,c('SNP_id','geneSymbol','providerName','alleleDiff','alleleEffectSize')]
-colnames(result)[,1:3]<-c('snp','TF_SYMBOL','motif')
+colnames(result)[1:3]<-c('snp','TF_SYMBOL','motif')
 result$snp<-gsub(':','_',result$snp)
 result[result$TF_SYMBOL=='T','TF_SYMBOL']<-'TBXT'
 result<-merge(result,model_tf)
@@ -40,4 +40,3 @@ result<-merge(result,model_tf)
 #merge and output
 df<-merge(evaldata,result,by=c('snp','TF_SYMBOL'))
 write.table(df,outfile,col.names=T,row.names=F,quote=F,sep='\t')
-
