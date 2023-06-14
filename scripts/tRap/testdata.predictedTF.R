@@ -1,4 +1,4 @@
-#TFs that atSNP can predict have intersection with selected TFs have at least 20 pbsnps.
+#TFs that tRap can predict have intersection with selected TFs have at least 20 pbsnps.
 #we only use common TFs for predicting snps' effect
 
 #JASPAR 2022
