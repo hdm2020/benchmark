@@ -1,6 +1,7 @@
 #merge experimental and predictive difference value(2 alleles off snp) of TF binding
 
 #read evaluation data
+evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 evaldata<-read.table(evaldatafile,sep='\t',header=T,stringsAsFactors = F)
 evaldata<-evaldata[,c('snp','pbs','pval','TF_SYMBOL')]
 
@@ -8,7 +9,6 @@ outfile<-'./testdata/deltaSVM_HT-SELEX.merged.expe.pred.results.txt'
 
 #94 high confidence TFs
 modeltf<-'./testdata/evaldata_inter94tf.csv'
-evaldatatf<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 predfile<-'./testdata/94tf_results/testdata.pbs.pred.tsv'
 
 #read prediction result
@@ -24,7 +24,6 @@ df1<-merge(evaldata,result,by=c('snp','TF_SYMBOL'))
 
 #other 439 TFs
 modeltf<-'./testdata/evaldata_inter439tf.csv'
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 
 #read prediction result
 model_tf<-read.csv(modeltf,stringsAsFactors=F)
