@@ -29,7 +29,7 @@ nohup python deepsea.predict.py -f $datadir/testsnp -o $datadir/results/DeepSEA.
 #6 calculate AUROC,AUPRC of TFs
 
 Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/DeepSEA.merged.expe.pred.results.txt -m $datadir/evaldata_interdeepsea689tf.csv -d delta_alt_ref -o $datadir/DeepSEA.tf.roc.prc.txt
-mv $datadir/besttfmodel.roc.prc.txt $datadir/DeepSEA.alltf.bestmodel.roc.prc.txt
+mv besttfmodel.roc.prc.txt $datadir/DeepSEA.alltf.bestmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
 #-f: a file of merged experimental and predictive difference value(2 alleles of snp) of TF binding, the 'snp','TF_SYMBOL','model_name',predictive difference value of TF binding colums must be provided.
 #-d: predictive difference value(2 alleles of snp) of TF binding
