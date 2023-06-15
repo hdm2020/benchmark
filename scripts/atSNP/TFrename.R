@@ -25,12 +25,12 @@ write.csv(df[,1:2],'JASPAR2022_human587tf.csv',row.names=F,quote=F)
 #download annotation information
 #wget -c https://hocomoco11.autosome.org/final_bundle/hocomoco11/core/HUMAN/mono/HOCOMOCOv11_core_annotation_HUMAN_mono.tsv --no-check-certificate
 df<-read.table('HOCOMOCOv11_core_annotation_HUMAN_mono.tsv',header=T,sep='\t',stringsAsFactors=F)
-df<-df[,c(1,2,7)]
+df<-df[,c(1,2)]
 #modify TF name as standard TF name
 library(org.Hs.eg.db)
 tfid<-mapIds(org.Hs.eg.db,df$Transcription.factor,'ENTREZID','SYMBOL')
 unique(df$Transcription.factor[is.na(tfid)])#'T'
 df[df$Transcription.factor=='T','Transcription.factor']<-'TBXT'
-colnames(df)[1:2]<-c('model_name','TF_SYMBOL')
+colnames(df)<-c('model_name','TF_SYMBOL')
 write.csv(df,'HOCOMOCOv11_401tf.csv',row.names=F,quote=F)
 
