@@ -61,5 +61,5 @@ mv besttfmodel.roc.prc.txt $datadir/atSNP.jaspar2022.besttfmodel.roc.prc.txt
 Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/atSNP.hocomocov11.merged.expe.pred.results.txt -m $datadir/evaldata_interatSNP.hocomoco401tf.csv -d log_lik_ratio -o $datadir/atSNP.hocomocov11.tf.roc.prc.txt
 
 # 7 regardless of pwm source,select TF's max AUROC and best models' merged experimental and predictive difference value(2 alleles off snp) of TF binding per TF,the data is used for computing correlation
-Rscript --vanilla bestmotif.R --f1 $datadir/atSNP.jaspar2022.tf.roc.prc.txt --f2 $datadir/atSNP.hocomocov11.tf.roc.prc.txt --f3 $datadir/atSNP.jaspar2022.merged.expe.pred.results.txt --f4 $datadir/atSNP.hocomocov11.merged.expe.pred.results.txt --o1 $datadir/atSNP.alltf.bestmodel.roc.prc.txt --o2 $datadir/atSNP.alltf.merged.expe.pred.results.txt
+Rscript --vanilla bestmotif.R --f1 $datadir/atSNP.jaspar2022.besttfmodel.roc.prc.txt --f2 $datadir/atSNP.hocomocov11.tf.roc.prc.txt --f3 $datadir/atSNP.jaspar2022.merged.expe.pred.results.txt --f4 $datadir/atSNP.hocomocov11.merged.expe.pred.results.txt --o1 $datadir/atSNP.alltf.bestmodel.roc.prc.txt --o2 $datadir/atSNP.alltf.merged.expe.pred.results.txt
 
