@@ -32,5 +32,5 @@ df2<-df
 
 #all 533 TFs
 alldf<-rbind(df1,df2)
-write.csv(df,outfile3,row.names=F,quote=F)
+write.csv(alldf,outfile3,row.names=F,quote=F)
 
