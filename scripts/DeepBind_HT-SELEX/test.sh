@@ -15,13 +15,13 @@ mkdir $datadir
 Rscript testdata.predictedTF.R #note: you need to change the code for your data
 
 #4 model's input sequence: 101-bp
-python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testsnp 2>$datadir/testsnp.log
+python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testsnp.log
 #input for the script: -f:reference genome; -s:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
 #5 model's prediction
 mkdir $datadir/results
 conda activate kipoi-DeepBind
-nohup python deepbind.predict.py -f $datadir/testsnp -m $datadir/evaldata_interselex377tf.csv -o $datadir/results &
+nohup python deepbind.predict.py -f $datadir/testdata -m $datadir/evaldata_interselex377tf.csv -o $datadir/results &
 #input for the script: -f:output of the script 'generate_allelic_seqs.py',prefix of the files including the sequences with ref or alt allele;
 #-m: TF model you need to run,a TF model per line. The 'model_name' column must be provided,eg:DeepBind/Homo_sapiens/TF/D00290.003_SELEX_ALX3
 #output for the script: files including 5 columns: snp, ref_pred, alt_pred, delta_alt_ref (alt_pred-ref_pred), TF(maybe non standard HGNC SYMBOL)
