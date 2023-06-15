@@ -16,13 +16,13 @@ mkdir $datadir
 Rscript testdata.predictedTF.R #note: you need to change the code for your data
 
 #4 model's input sequence: 1000-bp
-python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testsnp 2>$datadir/testsnp.log
+python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testsnp.log
 #input for the script: -f:reference genome; -s:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
 #5 model's prediction
 mkdir $datadir/results
 conda activate kipoi-DeepSEA__predict
-nohup python deepsea.predict.py -f $datadir/testsnp -o $datadir/results/DeepSEA.txt &
+nohup python deepsea.predict.py -f $datadir/testdata -o $datadir/results/DeepSEA.txt &
 #input for the script: -f:output of the script 'generate_allelic_seqs.py',prefix of the files including the sequences with ref or alt allele;
 #output for the script: a file including 920 columns(no header):snp & 919 features(difference value:alt-ref)
 
