@@ -17,7 +17,7 @@ write.csv(df,'JASPAR2022_691motif.csv',row.names=F,quote=F)#691tf,646tf,59tf-2tf
 
 #HOCOMOCO v11
 hocomocov11<-as.list(subset(MotifDb,dataSource=='HOCOMOCOv11-core-A'|dataSource=='HOCOMOCOv11-core-B'|dataSource=='HOCOMOCOv11-core-C' & organism=='Hsapiens'))#400
-motifname<-data.frame(model_name=names(hocomocov11))#400
+motifname<-data.frame(motif_name=names(hocomocov11))#400
 tfinfo<-read.table('./HOCOMOCOv11_core_annotation_HUMAN_mono.tsv',header=T,sep='\t',stringsAsFactors=F)
 tfinfo<-tfinfo[,c(1,2,7)]
 tfname<-function(xx){return(strsplit(xx,'-')[[1]][5])}
