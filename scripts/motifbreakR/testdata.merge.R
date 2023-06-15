@@ -29,7 +29,7 @@ predfile<-'./testdata/pwm_hocomocov11/results/motifbreakR.hocomocov11.txt'
 outfile<-'./testdata/motifbreakR.hocomocov11.merged.expe.pred.results.txt'
 
 #read prediction result
-model_tf<-read.csv(modeltf,stringsAsFactors=F)
+model_tf<-read.csv(modeltf,stringsAsFactors=F)[,c('model_name','TF_SYMBOL')]
 result<-read.table(predfile,header=T,sep='\t',stringsAsFactors=F)
 result<-result[,c('SNP_id','geneSymbol','providerName','alleleDiff','alleleEffectSize')]
 colnames(result)[1:3]<-c('snp','TF_SYMBOL','motif')
