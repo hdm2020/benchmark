@@ -44,7 +44,7 @@ Rscript testdata.merge.R #note: you need to change the code for your data
 
 #6.1 JASPAR 2022
 Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/motifbreakR.jaspar2022.merged.expe.pred.results.txt -m $datadir/evaldata_intermotifbreakR.jaspar587tf.csv -d alleleDiff -o $datadir/motifbreakR.jaspar2022.tf.roc.prc.txt
-mv besttfmodel.roc.prc.txt motifbreakR.jaspar2022.besttfmodel.roc.prc.txt
+mv besttfmodel.roc.prc.txt $datadir/motifbreakR.jaspar2022.besttfmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
 #-f: a file of merged experimental and predictive difference value(2 alleles of snp) of TF binding, the 'snp','TF_SYMBOL','model_name',predictive difference value of TF binding colums must be provided.
 #-d: predictive difference value(2 alleles of snp) of TF binding
