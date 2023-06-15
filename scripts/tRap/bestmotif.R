@@ -13,7 +13,7 @@ option_list = list(
   make_option("--f4", type="character", default=NULL,
               help="the file including merged experimental and predictive difference value of TF binding(hocomoco)", metavar="character"),
   make_option("--o1", type="character", default=NULL,
-              help="output file name:auroc file name(jaspar & hocomoco)", metavar="character")
+              help="output file name:auroc file name(jaspar & hocomoco)", metavar="character"),
   make_option("--o2", type="character", default=NULL,
               help="output file name:merged experimental and predictive difference value of TF binding(jaspar & hocomoco)", metavar="character")
 );
