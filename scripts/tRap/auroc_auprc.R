@@ -101,7 +101,6 @@ rocprc<-function(inputfile1,inputfile2,modeltf,deltascore,outputfile){
       tfs<-xx[xx$TF_SYMBOL==tf,]
       tf_maxauc<-tfs[tfs$auroc==max(tfs$auroc),][1,]
       auroc_auprc<-rbind(auroc_auprc,tf_maxauc)
-      auroc_auprc<-auroc_auprc[auroc_auprc$num!=0,]
     }
   write.table(auroc_auprc,'besttfmodel.roc.prc.txt',row.names=F,col.names=T,quote=F,sep='\t')
 }}
