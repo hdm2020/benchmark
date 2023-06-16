@@ -54,7 +54,8 @@ rocprc<-function(inputfile1,inputfile2,modeltf,deltascore,outputfile){
   exp_pre<-read.table(inputfile2,header = T,stringsAsFactors = F,sep='\t')
   result<-merge(result,exp_pre)
    
-  #absolute values of predictive diffrenece values
+  #absolute values of predictive difference values
+  result<-result[!is.na(result[,deltascore]),]#2 conditions:motif's parameters is missed or p value=0---note:some motifs will be removed
   result[,deltascore]<-abs(result[,deltascore])
   print(head(result))  
   
@@ -100,6 +101,7 @@ rocprc<-function(inputfile1,inputfile2,modeltf,deltascore,outputfile){
       tfs<-xx[xx$TF_SYMBOL==tf,]
       tf_maxauc<-tfs[tfs$auroc==max(tfs$auroc),][1,]
       auroc_auprc<-rbind(auroc_auprc,tf_maxauc)
+      auroc_auprc<-auroc_auprc[auroc_auprc$num!=0,]
     }
   write.table(auroc_auprc,'besttfmodel.roc.prc.txt',row.names=F,col.names=T,quote=F,sep='\t')
 }}
