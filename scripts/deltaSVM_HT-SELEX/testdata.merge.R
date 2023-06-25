@@ -1,4 +1,4 @@
-#merge experimental and predictive difference value(2 alleles off snp) of TF binding
+#merge experimental and predictive difference value(2 alleles of snp) of TF binding
 
 #read evaluation data
 evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
