@@ -1,5 +1,5 @@
 #DeepBind_ChIP-seq:modify TF name as HGNC symbol
-#awk -F '\t' '{print $1}' ~/.kipoi/models/DeepBind/models.tsv|grep 'Homo_sapiens/TF/'|grep 'ChIP-seq' > chipseq_results/hg.chipseq.137tf.models.txt
+#awk -F '\t' '{print $1}' ~/.kipoi/models/DeepBind/models.tsv|grep 'Homo_sapiens/TF/'|grep 'ChIP-seq' > hg.chipseq.137tf.models.txt
 df<-read.table('hg.chipseq.137tf.models.txt',header=F,stringsAsFactors=F)
 colnames(df)<-'model_name'
 df$model_name<-paste0('DeepBind/',df$model_name)
