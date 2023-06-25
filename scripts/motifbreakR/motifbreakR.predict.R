@@ -63,7 +63,7 @@ selectpwm<-function(pwmdb){
 
 pwms<-selectpwm(opt$pwmdb)
 print('motif library is loaded')
-print(length(motiflibrary))
+print(length(pwms))
 
 #define function for prediction
 motifbreakr_f<-function(inputfile,genome,method,outputfile){
