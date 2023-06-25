@@ -21,6 +21,7 @@ mkdir motiffiles gev_parameters
 split -l 13 jaspar2022.motif.txt -d motiffiles/motif
 
 ##2.1.3 change the code: fit-gev.R --> new-fit-gev.R
+#fit-gev.R: add '#' for line3-line7
 #cp ../../tRap/inst/scripts/fit-gev.R ./new-fit-gev.R
 #vim new-fit-gev.R
 
