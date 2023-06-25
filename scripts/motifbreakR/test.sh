@@ -26,7 +26,7 @@ Rscript --vanilla snp.R -f ../snpdata/testdata/testsnppos.tsv -o $datadir/testsn
 #JASPAR 2022
 mkdir $datadir/pwm_jaspar2022
 mkdir $datadir/pwm_jaspar2022/results
-nohup Rscript --vanilla motifbrekR.predict.R -f $datadir/testsnppos.bed -m $datadir/evaldata_intermotifbrekR.jaspar587tf.csv --pwmdb jaspar -g BSgenome.Hsapiens.UCSC.hg19 --method default -o $datadir/pwm_jaspar20221/results/motifbrekR.jaspar2022.txt &
+nohup Rscript --vanilla motifbreakR.predict.R -f $datadir/testsnppos.bed -m $datadir/evaldata_intermotifbreakR.jaspar587tf.csv --pwmdb jaspar -g BSgenome.Hsapiens.UCSC.hg19 --method default -o $datadir/pwm_jaspar2022/results/motifbreakR.jaspar2022.txt &
 #input for the script: -f:output of the script 'snp.R', a file including 5 columns:snpid chr snp(position) a1(ref allele) a2(alt allele)
 #-m: TF model you need to run,a TF model per line. The 'motif_name' column must be provided,eg:Hsapiens-jaspar2022-FOXF2-MA0030.1
 #output for the script: see https://bioconductor.org/packages/release/bioc/vignettes/motifbreakR/inst/doc/motifbreakR-vignette.html
@@ -34,7 +34,7 @@ nohup Rscript --vanilla motifbrekR.predict.R -f $datadir/testsnppos.bed -m $data
 #HOCOMOCO v11
 mkdir $datadir/pwm_hocomocov11
 mkdir $datadir/pwm_hocomocov11/results
-nohup Rscript --vanilla motifbrekR.predict.R -f $datadir/testsnppos.bed -m $datadir/evaldata_intermotifbrekR.hocomoco400tf.csv --pwmdb hocomoco -g BSgenome.Hsapiens.UCSC.hg19 --method default -o $datadir/pwm_hocomocov11/results/motifbrekR.hocomocov11.txt
+nohup Rscript --vanilla motifbreakR.predict.R -f $datadir/testsnppos.bed -m $datadir/evaldata_intermotifbreakR.hocomoco400tf.csv --pwmdb hocomoco -g BSgenome.Hsapiens.UCSC.hg19 --method default -o $datadir/pwm_hocomocov11/results/motifbreakR.hocomocov11.txt &v
 #-m: TF model you need to run,a TF model per line. The 'motif_name' column must be provided,eg:AHR_HUMAN.H11MO.0.B
 
 #5 merge experimental and predictive difference value(2 alleles off snp) of TF binding
