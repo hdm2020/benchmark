@@ -45,7 +45,7 @@ python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/test
 #JASPAR 2022
 mkdir $datadir/pwm_jaspar2022
 mkdir $datadir/pwm_jaspar2022/results
-nohup Rscript --vanilla tRap.predict.R -f $datadir/testdata -m $datadir/evaldata_intertRap.jaspar587tf.csv --pwmdb jaspar -o $datadir/pwm_jaspar20221/results/tRap.jaspar2022.txt &
+nohup Rscript --vanilla tRap.predict.R -f $datadir/testdata -m $datadir/evaldata_intertRap.jaspar587tf.csv --pwmdb jaspar -o $datadir/pwm_jaspar2022/results/tRap.jaspar2022.txt &
 #input for the script: -f:output of the script 'generate_allelic_seqs.py',prefix of the files including the sequences with ref or alt allele;
 #-m: TF model you need to run,a TF model per line. The 'motif_name' column must be provided,eg:MA0069.1
 #output for the script:a file including 11 columns: seq1, seq2, matrix, a1, a2, p1, p2, ratio, log.ratio, min.p, min.prod
