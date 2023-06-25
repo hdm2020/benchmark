@@ -41,7 +41,7 @@ nohup Rscript --vanilla atSNP.predict.R -f $datadir/testsnppos.tsv -m $datadir/e
 #4.2 HOCOMOCO v11
 mkdir $datadir/pwm_hocomocov11
 mkdir $datadir/pwm_hocomocov11/results
-nohup Rscript --vanilla atSNP.predict.R -f $datadir/testsnppos.tsv -m $datadir/evaldata_interatSNP.hocomoco401tf.csv --pwmdb hocomoco -g BSgenome.Hsapiens.UCSC.hg19 -n 20 -o $datadir/pwm_hocomocov11/results/atSNP.hocomocov11.txt
+nohup Rscript --vanilla atSNP.predict.R -f $datadir/testsnppos.tsv -m $datadir/evaldata_interatSNP.hocomoco401tf.csv --pwmdb hocomoco -g BSgenome.Hsapiens.UCSC.hg19 -n 20 -o $datadir/pwm_hocomocov11/results/atSNP.hocomocov11.txt &
 #-m: TF model you need to run,a TF model per line. The 'motif_name' column must be provided,eg:ALX1_HUMAN.H11MO.0.B
 
 
