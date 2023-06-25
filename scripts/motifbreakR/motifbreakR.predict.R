@@ -65,7 +65,7 @@ print('motif library is loaded')
 print(length(pwms))
 
 #define function for prediction
-motifbreakr_f<-function(inputfile,genome,method,outputfile){
+motifbreakr_f<-function(inputfile,genome,a_method,outputfile){
   start<-Sys.time()
   print(start)
   #load snp data from bed file --no rsid
@@ -94,7 +94,7 @@ motifbreakr_f<-function(inputfile,genome,method,outputfile){
     pwmList = pwms,
     filterp = TRUE,
     threshold = 1,
-    method = "default",
+    method = a_method,
     show.neutral = TRUE,
     bkg = c(A = 0.25, C = 0.25, G = 0.25, T = 0.25),
     BPPARAM = bpparam()
