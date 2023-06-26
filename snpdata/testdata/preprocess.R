@@ -2,7 +2,7 @@
 #subset TFs and snps of snp-tf pairs
 #positive samples and negative samples for calculating AUROC,AUPRC
 
-#1 subset TFs have at least 20 pbsnp;and modify TF name as standard HGNC symbol(GeneCards)
+#1 subset TFs have at least 20 pbsnp(potential binding snp);and modify TF name as standard HGNC symbol(GeneCards)
 
 df<-read.csv('GVATdb_novelbatch_100TF3000snp.csv',stringsAsFactors=F)
 
