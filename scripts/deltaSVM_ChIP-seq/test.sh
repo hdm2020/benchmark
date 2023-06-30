@@ -24,7 +24,7 @@ mkdir $datadir
 Rscript testdata.predictedTF.R #note: you need to change the code for your data
 
 #4 model's input sequence: 21-bp
-python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testsnp 2>$datadir/testsnp.log
+python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testsnp.log
 #input for the script: -f:reference genome; -s:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
 #4 model's prediction
