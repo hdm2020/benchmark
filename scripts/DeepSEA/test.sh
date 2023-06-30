@@ -26,8 +26,10 @@ nohup python deepsea.predict.py -f $datadir/testdata -o $datadir/results/DeepSEA
 #input for the script: -f:output of the script 'generate_allelic_seqs.py',prefix of the files including the sequences with ref or alt allele;
 #output for the script: a file including 920 columns(no header):snp & 919 features(difference value:alt-ref)
 
-#6 calculate AUROC,AUPRC of TFs
+#6 merge experimental and predictive difference value(2 alleles of snp) of TF binding
+Rscript testdata.merge.R #note: you need to change the code for your data
 
+#7 calculate AUROC,AUPRC of TFs
 Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/DeepSEA.merged.expe.pred.results.txt -m $datadir/evaldata_interdeepsea689tf.csv -d delta_alt_ref -o $datadir/DeepSEA.tf.roc.prc.txt
 mv besttfmodel.roc.prc.txt $datadir/DeepSEA.alltf.bestmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
