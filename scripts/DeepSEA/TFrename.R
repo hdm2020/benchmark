@@ -19,6 +19,6 @@ name1<-c("JARID1A","POL2(B)","P300","PLU1","GABP","GR","NRSF","POL2","SIN3AK20",
 name2<-c("KDM5A","POL2(B)","EP300","KDM5B","GABP","NR3C1","REST","POL2","SIN3AK20","ESR1","PAX5","PAX5","POL24H8","SPI1","POL2(PHOSPHOS2)","NFKB","RCOR1","POL3","TBL1XR1","NR2C2","WRNIP1","TRIM28","TFAP2A","TFAP2C","SMARCC1","SMARCC2","SMARCA4","HAE2F1","SMARCB1","POLR3A","SUPT20H","GTF3C2","ESRRA","GRP20","PPARGC1A","UBTF")
 df$TF_SYMBOL<-df$TF_rename
 for (i in 1:length(name1)){df[df$TF_rename==name1[i],'TF_SYMBOL']<-name2[i]}
-df$model<-paste(df$cell_line,df$TF_SYMBOL,df$tf_coord,sep='_')
+df$model_name<-paste(df$cell_line,df$TF_SYMBOL,df$tf_coord,sep='_')
 write.csv(df,'deepsea.689tf(1na).csv',row.names=F,quote=F)#163TF,689model(690 model,one is NA)
 
