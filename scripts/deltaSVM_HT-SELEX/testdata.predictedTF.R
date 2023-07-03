@@ -3,7 +3,7 @@
 
 #94 high confidence TFs
 modeltf<-'./94tf.model.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_inter94tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
@@ -16,7 +16,7 @@ df1<-df
 
 #439 TFs
 modeltf<-'./439gkmsvm_models.tf.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile1<-'./testdata/evaldata_inter439tf.csv'
 outfile2<-'./testdata/predicted.tf.model.txt'
 outfile3<-'./testdata/evaldata_inter533tf.csv'
