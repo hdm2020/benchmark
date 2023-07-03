@@ -3,7 +3,7 @@
 
 #JASPAR 2022
 modeltf<-'./JASPAR2022_human587tf.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_intertRap.jaspar587tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
