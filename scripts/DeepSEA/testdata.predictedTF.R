@@ -2,7 +2,7 @@
 #we only use common TFs for predicting snps' effect
 
 modeltf<-'./deepsea.689tf(1na).csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_interdeepsea689tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
