@@ -3,7 +3,7 @@
 
 #JASPAR 2022
 modeltf<-'./JASPAR2022_human587tf.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_interatSNP.jaspar587tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
@@ -14,7 +14,7 @@ write.csv(df,outfile,row.names=F,quote=F)
 
 #HOCOMOCO v11
 modeltf<-'./HOCOMOCOv11_401tf.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_interatSNP.hocomoco401tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
