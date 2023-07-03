@@ -14,7 +14,7 @@ write.csv(df,outfile,row.names=F,quote=F)
 
 #HOCOMOCO v11
 modeltf<-'./HOCOMOCOv11_401tf.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_intertRap.hocomoco401tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
