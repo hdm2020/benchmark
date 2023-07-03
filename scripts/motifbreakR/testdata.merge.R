@@ -1,7 +1,7 @@
 #merge experimental and predictive difference value(2 alleles of snp) of TF binding
 
 #read evaluation data
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
+evaldatafile<-'../../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 evaldata<-read.table(evaldatafile,sep='\t',header=T,stringsAsFactors = F)
 evaldata<-evaldata[,c('snp','pbs','pval','TF_SYMBOL')]
 
