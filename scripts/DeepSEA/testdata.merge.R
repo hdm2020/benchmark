@@ -1,7 +1,7 @@
 #merge experimental and predictive difference value(2 alleles of snp) of TF binding
 
 modeltf<-'./testdata/evaldata_interdeepsea689tf.csv'
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
+evaldatafile<-'../../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 predfile<-'./testdata/results/DeepSEA.txt'
 outfile<-'./testdata/DeepSEA.merged.expe.pred.results.txt'
 
