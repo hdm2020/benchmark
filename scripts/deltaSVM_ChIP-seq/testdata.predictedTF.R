@@ -2,7 +2,7 @@
 #we only use common TFs for predicting snps' effect
 
 modeltf<-'./tfe3.699model.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile1<-'./testdata/evaldata_inter699e3tf.csv'
 outfile2<-'./testdata/predicted.tf.model.txt'
 
