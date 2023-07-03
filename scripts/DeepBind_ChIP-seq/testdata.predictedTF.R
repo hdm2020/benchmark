@@ -2,7 +2,7 @@
 #we only use common TFs for predicting snps' effect
 
 modeltf<-'./hg.chipseq.137tf.models.tf.csv'
-evaldatatf<-'../snpdata/testdata/20pbsnptf.csv'
+evaldatatf<-'../../snpdata/testdata/20pbsnptf.csv'
 outfile<-'./testdata/evaldata_interchipseq136tf.csv'
 
 df<-read.csv(modeltf,stringsAsFactors = F)
