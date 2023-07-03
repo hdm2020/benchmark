@@ -10,6 +10,7 @@ R CMD INSTALL tRap_0.5.tar.gz
 
 
 #2 learn the parameters of the generalized extreme value (GEV) distributions from an appropriate training set for using custom matrices
+tar -zxvf tRap_0.5.tar.gz
 mkdir promoter_fa
 cd promoter_fa
 bash train_params.sh #note: the path new R package you should make a change
