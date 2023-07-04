@@ -27,7 +27,7 @@ Rscript testdata.predictedTF.R #note: you need to change the code for your data
 python generate_allelic_seqs.py -f ../../genome/hg19.fa -s ../../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testsnp.log
 #input for the script: -f:reference genome; -s:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
-#4 model's prediction
+#5 model's prediction
 mkdir $datadir/results
 for weight in `cat testdata/predicted.tf.model.txt`
 do
@@ -37,17 +37,17 @@ done
 #weight file: a weight file per line, eg:TF_E3_104_hg38_300_top10k_vs_neg1x_avg_weights.out
 #output for the script: files including 2 columns(no header): snp & difference value(alt-ref)
 
-#5 merge experimental and predictive difference value(2 alleles off snp) of TF binding
+#6 merge experimental and predictive difference value(2 alleles off snp) of TF binding
 Rscript testdata.merge.R #note: you need to change the code for your data
 
-#6 calculate AUROC,AUPRC of TFs
+#7 calculate AUROC,AUPRC of TFs
 Rscript --vanilla auroc_auprc.R -e ../../snpdata/testdata/evaldata -f $datadir/deltaSVM_ChIP-seq.merged.expe.pred.results.txt -m $datadir/evaldata_inter699e3tf.csv -d deltaSVM -o $datadir/deltaSVM_ChIP-seq.tf.roc.prc.txt
 mv besttfmodel.roc.prc.txt $datadir/deltaSVM_ChIP-seq.alltf.bestmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
 #-f: a file of merged experimental and predictive difference value(2 alleles of snp) of TF binding, the 'snp','TF_SYMBOL','model_name',predictive difference value of TF binding colums must be provided.
 #-d: predictive difference value(2 alleles of snp) of TF binding
 
-#7 best models' merged experimental and predictive difference value(2 alleles off snp) of TF binding per TF,the data is used for computing correlation
+#8 best models' merged experimental and predictive difference value(2 alleles off snp) of TF binding per TF,the data is used for computing correlation
 Rscript --vanilla bestmodel.R --f1 $datadir/deltaSVM_ChIP-seq.alltf.bestmodel.roc.prc.txt --f2 $datadir/deltaSVM_ChIP-seq.merged.expe.pred.results.txt --out $datadir/deltaSVM_ChIP-seq.alltf.merged.expe.pred.results.txt
 
 
