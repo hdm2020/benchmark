@@ -20,10 +20,9 @@ awk -F '\t' '{print $1}' jaspar2022.name.txt > jaspar2022.motif.txt #841 motif
 mkdir motiffiles gev_parameters
 split -l 13 jaspar2022.motif.txt -d motiffiles/motif
 
-##2.1.3 change the code: fit-gev.R --> new-fit-gev.R
+##2.1.3 change the code
 #../../tRap/R/fit-gev.R: add '#' for line3-line7
-#cp ../../tRap/inst/scripts/fit-gev.R ./new-fit-gev.R
-#vim new-fit-gev.R
+#new-fit-gev.R #this script we provided is adjusted from ../../tRap/inst/scripts/fit-gev.R
 
 ##2.1.4 train the parameters
 #run all the motifs
