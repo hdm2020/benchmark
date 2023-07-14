@@ -7,9 +7,9 @@ colnames(df)<-'weight'
 tf<-function(xx){return(strsplit(xx,'_')[[1]][1])}
 df$TF<-apply(df,1,tf)
 #identify TF that is not standard name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])#'T'
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])#'T'
 df$TF_SYMBOL<-df$TF
 df$TF_SYMBOL[df$TF_SYMBOL=='T']<-'TBXT'
 df$model_name<-gsub('.model.txt','',df$weight,fixed=T)
@@ -22,9 +22,9 @@ df<-read.table('533gkmsvm_models.txt',header=F,stringsAsFactors=F)#5880 model
 colnames(df)<-'weight'
 tf<-function(xx){return(strsplit(xx,'_')[[1]][1])}
 df$TF<-apply(df,1,tf)#533TF
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])#"T"      "ZNF323" "ZSCAN5"
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])#"T"      "ZNF323" "ZSCAN5"
 df$TF_SYMBOL<-df$TF
 df$TF_SYMBOL[df$TF_SYMBOL=='T']<-'TBXT'
 df$TF_SYMBOL[df$TF_SYMBOL=='ZNF323']<-'ZSCAN31'
