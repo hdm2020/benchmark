@@ -9,9 +9,9 @@ df$tf_coord<-as.numeric(row.names(df))
 df$tfcoord_plus1<-df$tf_coord+1
 df<-na.omit(df)#one line is NA
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])
 df$TF_rename<-gsub('c-','',df$TF);df$TF_rename<-gsub('eGFP-','',df$TF_rename);df$TF_rename<-gsub('-','',df$TF_rename)
 df$TF_rename<-toupper(df$TF_rename)
 tfid<-mapIds(org.Hs.eg.db,df$TF_rename,'ENTREZID','SYMBOL')
