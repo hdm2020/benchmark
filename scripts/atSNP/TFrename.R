@@ -12,9 +12,9 @@ motif$TF<-toupper(motif$tf)
 df<-motif[motif$tf==motif$TF,]#695 motif,650tf,60 are 2tf-intersection
 df<-df[!(df$motif_id %in% c('MA0108.2','MA0259.1','MA0619.1','MA1540.2')),]#MA0108.2 TBP(no species)；MA0259.1 ARNT::HIF1A(multi-species)；MA0619.1 LIN54(Gallus gallus)；MA1540.2 NR5A1(Mus musculus)
 #modify TF name as standard HGNC symbol
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$tf,'ENTREZID','SYMBOL')
-unique(df$tf[is.na(tfid)])#0
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$tf,'ENTREZID','SYMBOL')
+#unique(df$tf[is.na(tfid)])#0
 colnames(df)<-c('model_name','TF_SYMBOL')
 write.csv(df[,1:2],'JASPAR2022_human587tf.csv',row.names=F,quote=F)
 
@@ -27,9 +27,9 @@ write.csv(df[,1:2],'JASPAR2022_human587tf.csv',row.names=F,quote=F)
 df<-read.table('HOCOMOCOv11_core_annotation_HUMAN_mono.tsv',header=T,sep='\t',stringsAsFactors=F)
 df<-df[,c(1,2)]
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$Transcription.factor,'ENTREZID','SYMBOL')
-unique(df$Transcription.factor[is.na(tfid)])#'T'
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$Transcription.factor,'ENTREZID','SYMBOL')
+#unique(df$Transcription.factor[is.na(tfid)])#'T'
 df[df$Transcription.factor=='T','Transcription.factor']<-'TBXT'
 colnames(df)<-c('model_name','TF_SYMBOL')
 write.csv(df,'HOCOMOCOv11_401tf.csv',row.names=F,quote=F)
