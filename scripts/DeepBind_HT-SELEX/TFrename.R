@@ -6,9 +6,9 @@ df$model_name<-paste0('DeepBind/',df$model_name)
 tf<-function(xx){return(strsplit(xx,'_')[[1]][4])}
 df$TF<-apply(df,1,tf)
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])
 name1<-c("BHLHB2","BHLHB3","CART1","HINFP1","POU5F1P1","RAXL1","T","ZNF238","ZNF306","ZNF435")
 name2<-c("BHLHE40","BHLHB3","ALX1","HINFP1","POU5F1B","RAX2","TBXT","ZBTB18","ZKSCAN3","ZSCAN16")#BHLHE41(BHLHB3) is existed.
 df$TF_SYMBOL<-df$TF
