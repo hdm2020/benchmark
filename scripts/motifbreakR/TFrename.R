@@ -11,10 +11,10 @@ library(dplyr)
 id<-function(xx){return(last(strsplit(xx,'-')[[1]]))}
 motifname$id<-apply(data.frame(motifname$motif_name),1,id)
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
+#library(org.Hs.eg.db)
 df<-motifname[,c(3,1,2)]
-tfid<-mapIds(org.Hs.eg.db,df$tf,'ENTREZID','SYMBOL')
-unique(df$tf[is.na(tfid)])#0
+#tfid<-mapIds(org.Hs.eg.db,df$tf,'ENTREZID','SYMBOL')
+#unique(df$tf[is.na(tfid)])#0
 colnames(df)<-c('model_name','motif_name','TF_SYMBOL')
 write.csv(df,'JASPAR2022_691motif.csv',row.names=F,quote=F)#691tf,646tf,59tf-2tf intersection
 
