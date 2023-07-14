@@ -11,9 +11,9 @@ df$cell[i]<-strsplit(df$source[i],' ')[[1]][5]
 df$TF<-gsub('eGFP-','',df$TF)
 df$TF<-gsub('3xFLAG-','',df$TF)
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])#"C11orf30"
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])#"C11orf30"
 df$TF_SYMBOL<-df$TF
 df[df$TF=='C11orf30','TF_SYMBOL']<-'EMSY'
 #merge weight file name
