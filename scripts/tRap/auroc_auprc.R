@@ -57,7 +57,7 @@ rocprc<-function(inputfile1,inputfile2,modeltf,deltascore,outputfile){
   #absolute values of predictive difference values
   result<-result[!is.na(result[,deltascore]),]#2 conditions:motif's parameters is missed or p value=0---note:some motifs will be removed
   result[,deltascore]<-abs(result[,deltascore])
-  print(head(result))  
+  #print(head(result))  
   
   #model_tf file
   model_tf<-read.csv(modeltf,stringsAsFactors = F)
