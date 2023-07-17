@@ -11,14 +11,13 @@ R CMD INSTALL ./tRap
 
 
 #2 learn the parameters of the generalized extreme value (GEV) distributions from an appropriate training set for using custom matrices
-tar -zxvf tRap_0.5.tar.gz
 mkdir promoter_fa
 cd promoter_fa
-bash train_params.sh #note: the path new R package you should make a change
+bash train_params.sh #note: the path new R package you should make a change; step-by-step is recommended
 
 
 #3 modify names of TFs tRap can predict as their standard HGNC SYMBOL
-
+cd ../../
 #JASPAR 2022
 wget -c https://jaspar.genereg.net/download/data/2022/CORE/JASPAR2022_CORE_vertebrates_non-redundant_pfms_jaspar.txt --no-check-certificate
 grep '>' JASPAR2022_CORE_vertebrates_non-redundant_pfms_jaspar.txt > jaspar2022.name.txt
