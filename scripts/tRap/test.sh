@@ -6,7 +6,8 @@ datadir=testdata
 #1 download tRap
 wget http://trap.molgen.mpg.de/download/TRAP_R_package/tRap_0.5.tar.gz
 #install tRap
-R CMD INSTALL tRap_0.5.tar.gz
+tar -xzvf tRap_0.5.tar.gz
+R CMD INSTALL ./tRap
 
 
 #2 learn the parameters of the generalized extreme value (GEV) distributions from an appropriate training set for using custom matrices
