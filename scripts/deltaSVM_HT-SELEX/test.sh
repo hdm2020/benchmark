@@ -45,7 +45,7 @@ Rscript testdata.predictedTF.R #note: you need to change the code for your data
 
 
 #4 model's input sequence: 40-bp
-python scripts/generate_allelic_seqs.py -f resources/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testdata.log
+python scripts/generate_allelic_seqs.py -f resources/hg19.fa -s ../../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testdata.log
 #input for the script: -f:reference genome; -s:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
 
