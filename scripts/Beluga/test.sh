@@ -21,7 +21,7 @@ Rscript testdata.predictedTF.R #note: you need to change the code for your data
 
 
 #4 model's input sequence: 2000-bp
-python generate_allelic_seqs.py -f ../genome/hg19.fa -s ../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testsnp.log
+python generate_allelic_seqs.py -f ../../genome/hg19.fa -s ../../snpdata/testdata/testsnppos.tsv -o $datadir/testdata 2>$datadir/testsnp.log
 #input for the script: -f:reference genome; -s:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
 
@@ -39,7 +39,7 @@ Rscript testdata.merge.R #note: you need to change the code for your data
 
 
 #7 calculate AUROC,AUPRC of TFs
-Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/DeepSEA_Beluga.merged.expe.pred.results.txt -m $datadir/evaldata_interdeepsea.beluga690tf.csv -d delta_alt_ref -o $datadir/DeepSEA_Beluga.tf.roc.prc.txt
+Rscript --vanilla auroc_auprc.R -e ../../snpdata/testdata/evaldata -f $datadir/DeepSEA_Beluga.merged.expe.pred.results.txt -m $datadir/evaldata_interdeepsea.beluga690tf.csv -d delta_alt_ref -o $datadir/DeepSEA_Beluga.tf.roc.prc.txt
 mv besttfmodel.roc.prc.txt $datadir/DeepSEA_Beluga.alltf.bestmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
 #-f: a file of merged experimental and predictive difference value(2 alleles of snp) of TF binding, the 'snp','TF_SYMBOL','model_name',predictive difference value of TF binding colums must be provided.
