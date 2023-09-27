@@ -6,9 +6,9 @@ df$description<-gsub(',',';',df$description)
 df$TF<-apply(data.frame(df$description),1,function(xx){return(strsplit(xx,':')[[1]][2])})#767
 
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])
 df$TF_rename<-gsub('eGFP-','',df$TF);df$TF_rename<-gsub('3xFLAG-','',df$TF_rename)
 df<-df[df$TF!='.',]#these are not human,120
 df<-df[df$TF!='RNAPII',]
