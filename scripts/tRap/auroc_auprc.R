@@ -71,12 +71,9 @@ rocprc<-function(inputfile1,inputfile2,modeltf,deltascore,outputfile){
     n_table<-dim(as.data.frame(table(df$clables)))[1] #check if positive or negative samples of the TF are existed
     if (n_table==2){
       set.seed(1)
-      #m<-min(table(model$clables)[['1']],table(model$clables)[['0']])
       m<-table(df$clables)[['1']] #the count of positive samples
       neg<-data.frame(neg_delta=sample(df[df$clables==0,deltascore],m,replace=F)) #randomly sample negative samples (same number as positive samples) 
       neg$clables_neg<-0
-      #if tf negative samples < positive samples,actually this hardly happen,if happen,the numbers' difference < 10
-      #neg<-cbind(neg,model[model$clables==1,c(deltascore,'clables')][1:m,])
       neg<-cbind(neg,df[df$clables==1,c(deltascore,'clables')])
 
       auroc<-roc.curve(scores.class0 = c(neg$neg_delta,neg[,deltascore]), weights.class0 = c(neg$clables_neg,neg$clables))$auc
