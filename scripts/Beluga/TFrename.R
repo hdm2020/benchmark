@@ -9,9 +9,9 @@ df<-read.table('predictor.names.txt',header=T,sep='\t',stringsAsFactors=F)
 colnames(df)[1:3]<-c('index','cell_line','TF')
 df<-df[df$Assay.type=='TF',]
 #modify TF name as standard TF name
-library(org.Hs.eg.db)
-tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
-unique(df$TF[is.na(tfid)])
+#library(org.Hs.eg.db)
+#tfid<-mapIds(org.Hs.eg.db,df$TF,'ENTREZID','SYMBOL')
+#unique(df$TF[is.na(tfid)])
 df$TF_rename<-gsub('c-','',df$TF);df$TF_rename<-gsub('eGFP-','',df$TF_rename);df$TF_rename<-gsub('-','',df$TF_rename)
 df$TF_rename<-toupper(df$TF_rename)
 tfid<-mapIds(org.Hs.eg.db,df$TF_rename,'ENTREZID','SYMBOL')
