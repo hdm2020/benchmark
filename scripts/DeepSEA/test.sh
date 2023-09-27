@@ -27,6 +27,7 @@ nohup python deepsea.predict.py -f $datadir/testdata -o $datadir/results/DeepSEA
 #output for the script: a file including 920 columns(no header):snp & 919 features(difference value:alt-ref)
 
 #6 merge experimental and predictive difference value(2 alleles of snp) of TF binding
+conda deactivate
 Rscript testdata.merge.R #note: you need to change the code for your data
 
 #7 calculate AUROC,AUPRC of TFs
