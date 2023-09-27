@@ -27,6 +27,7 @@ nohup python deepbind.predict.py -f $datadir/testdata -m $datadir/evaldata_inter
 #output for the script: files including 5 columns: snp, ref_pred, alt_pred, delta_alt_ref (alt_pred-ref_pred), TF(maybe non standard HGNC SYMBOL)
 
 #6 merge experimental and predictive difference value(2 alleles of snp) of TF binding
+conda deactivate
 Rscript testdata.merge.R #note: you need to change the code for your data
 
 #7 calculate AUROC,AUPRC of TFs
