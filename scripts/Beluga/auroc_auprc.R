@@ -56,7 +56,7 @@ rocprc<-function(inputfile1,inputfile2,modeltf,deltascore,outputfile){
    
   #absolute values of predictive diffrenece values
   result[,deltascore]<-abs(result[,deltascore])
-  print(head(result))  
+  #print(head(result))  
   
   #model_tf file
   model_tf<-read.csv(modeltf,stringsAsFactors = F)
