@@ -4,7 +4,7 @@ library(rhdf5)
 
 modeltf<-'./testdata/evaldata_interSei9315tf.csv'
 snpid<-'./testdata/testsnppos.vcf'
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
+evaldatafile<-'../../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 predfile<-'./testdata/results/chromatin-profiles-hdf5/testsnppos_diffs.h5'
 outfile<-'./testdata/Sei.merged.expe.pred.results.txt'
 
