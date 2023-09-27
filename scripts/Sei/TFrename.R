@@ -31,7 +31,7 @@ write.table(df[,2:4],'Sei.TF.binding.txt',row.names=F,col.names=T,sep='\t',quote
 df$TF_rename<-gsub('c-','',df$TF);df$TF_rename<-gsub('eGFP-','',df$TF_rename);df$TF_rename<-gsub('-','',df$TF_rename)
 df$TF_rename<-toupper(df$TF_rename)
 #tfid<-mapIds(org.Hs.eg.db,df$TF_rename,'ENTREZID','SYMBOL')
-unique(df$TF_rename[is.na(tfid)])#74
+#unique(df$TF_rename[is.na(tfid)])#74
 name1<-c('C17ORF49','CCDC101','T','PR','NKX21','NKX31','NKX22','C17ORF96','STAT5','WHSC1','CPSF3L','MRE11A','PTRF','MBD1_ISOFORM2','MBD1_ISOFORM1','C11ORF30','ZNF788','GUCY1B3','MGEA5','TAZ','MKL2','MKL1','FAM208A','GR','NRSF','P300','ERALPHA','COREST','PAX5C20','PAX5N19','PU.1','TBLR1','TR4','WHIP','JARID1A','KAP1','AP2ALPHA','AP2GAMMA','BAF155','BAF170','BRG1','INI1','RPC155','SPT20','TFIIIC110','ERRA','PGC1A','SREBP1','PLU1','UBF')
 name2<-c('C17orf49','SGF29','TBXT','PGR','NKX2-1','NKX3-1','NKX2-2','EPOP','STAT5A','NSD2','INTS11','MRE11','CAVIN1','MBD1','MBD1','EMSY','ZNF788P','GUCY1B1','OGA','TAFAZZIN','MRTFB','MRTFA','TASOR','NR3C1','REST','EP300','ESR1','RCOR1','PAX5','PAX5','SPI1','TBL1XR1','NR2C2','WRNIP1','KDM5A','TRIM28','TFAP2A','TFAP2C','SMARCC1','SMARCC2','SMARCA4','SMARCB1','POLR3A','SUPT20H','GTF3C2','ESRRA','PPARGC1A','SREBF1','KDM5B','UBTF')
 df$TF_SYMBOL<-df$TF_rename
