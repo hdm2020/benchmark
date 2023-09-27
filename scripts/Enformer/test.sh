@@ -27,10 +27,6 @@ pip install tensorflow-hub #(0.14.0)
 #pip install keras==2.6.0
 conda install cudnn #Could not load dynamic library 'libcudnn.so.8'
 
-#if you want to use jupyter,install ipykernel package
-#pip install ipykernel
-#add virtual environment into jupyter and set name
-#python -m ipykernel install --user --name enformer_gpu
 
 #download module 
 mkdir moduleE
@@ -55,7 +51,7 @@ Rscript testdata.predictedTF.R #note: you need to change the code for your data
 #5 model's prediction
 mkdir $datadir/results
 
-nohup python enformer.predict.py -s ../snpdata/testdata/testsnppos.tsv -g ../genome/hg19 -o $datadir/results/Enformer.txt > $datadir/testdata.log 2>&1 &
+nohup python enformer.predict.py -s ../../snpdata/testdata/testsnppos.tsv -g ../../genome/hg19 -o $datadir/results/Enformer.txt > $datadir/testdata.log 2>&1 &
 
 #6 merge experimental and predictive difference value(2 alleles of snp) of TF binding
 Rscript testdata.merge.R #note: you need to change the code for your data
@@ -63,7 +59,7 @@ Rscript testdata.merge.R #note: you need to change the code for your data
 
 #7 calculate AUROC,AUPRC of TFs
 
-Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/Enformer.merged.expe.pred.results.txt -m $datadir/evaldata_interenformer2131tf.csv -d delta_alt_ref -o $datadir/Enformer.tf.roc.prc.txt
+Rscript --vanilla auroc_auprc.R -e ../../snpdata/testdata/evaldata -f $datadir/Enformer.merged.expe.pred.results.txt -m $datadir/evaldata_interenformer2131tf.csv -d delta_alt_ref -o $datadir/Enformer.tf.roc.prc.txt
 mv besttfmodel.roc.prc.txt $datadir/Enformer.alltf.bestmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
 #-f: a file of merged experimental and predictive difference value(2 alleles of snp) of TF binding, the 'snp','TF_SYMBOL','model_name',predictive difference value of TF binding colums must be provided.
