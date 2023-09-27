@@ -1,7 +1,7 @@
 #merge experimental and predictive difference value(2 alleles off snp) of TF binding
 
 modeltf<-'./testdata/evaldata_interenformer2131tf.csv'
-evaldatafile<-'../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
+evaldatafile<-'../../snpdata/testdata/GVAT_novelbatch_TFSYMBOL.txt'
 predfile<-'./testdata/results/Enformer.txt'
 outfile<-'./testdata/Enformer.merged.expe.pred.results.txt'
 
