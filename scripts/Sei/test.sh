@@ -12,7 +12,7 @@ conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cpuonly -c py
 git clone https://github.com/FunctionLab/selene.git
 cd selene
 python setup.py build_ext --inplace
-#python setup.py install
+python setup.py install
 cd ../
 #docopt
 conda install docopt
