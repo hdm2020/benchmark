@@ -12,7 +12,7 @@ wget -c https://raw.githubusercontent.com/deepmind/deepmind-research/master/enfo
 python3 -m venv enformer_gpu_venv
 source enformer_gpu_venv/bin/activate
 
-#install dependcies
+#install dependencies
 pip install dm-sonnet #(2.0.1)
 pip install numpy==1.19.5
 pip install pandas==1.2.3
@@ -30,7 +30,8 @@ conda install cudnn #Could not load dynamic library 'libcudnn.so.8'
 
 #download module 
 mkdir moduleE
-curl -L "https://hub.tensorflow.google.cn/deepmind/enformer/1?tf-hub-format=compressed" -k | tar -zxvC ./moduleE #-k/--insecure:Tell libcurl to not verify the peer; we download it locally beacause other URL can't be downloaded successfully.
+curl -L "https://hub.tensorflow.google.cn/deepmind/enformer/1?tf-hub-format=compressed" -k | tar -zxvC ./moduleE #-k/--insecure:Tell libcurl to not verify the peer
+#or you can download it using: wget -c https://tfhub.dev/deepmind/enformer/1?tf-hub-format=compressed
 
 
 #2 modify names of TFs Enformer can predict as their standard HGNC SYMBOL
