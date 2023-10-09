@@ -27,7 +27,7 @@ sh ./download_data.sh
 #'model/target.names' includes 3 types of chromatin feaures: histone modification,chromatin accessibility,TF binding
 
 #position index of histone marks('histone_inds.npy',0-based)
-#you need to run codes below.
+#!!!you need to run codes below.
 #import numpy as np
 #import pandas as pd
 #histone_inds = np.load('model/histone_inds.npy')
@@ -35,7 +35,7 @@ sh ./download_data.sh
 #df.to_csv('histone_inds.txt',index=False,header=False,sep='\t')
 
 #chromatin accessibility
-#grep 'DNase\|ATAC-seq' model/target.names > chrom_access.txt
+grep 'DNase\|ATAC-seq' model/target.names > chrom_access.txt
 
 Rscript TFrename.R
 
