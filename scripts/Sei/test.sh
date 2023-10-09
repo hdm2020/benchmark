@@ -12,7 +12,8 @@ conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 cpuonly -c py
 git clone https://github.com/FunctionLab/selene.git
 cd selene
 python setup.py build_ext --inplace
-python setup.py install
+#python setup.py install
+cd ../
 #docopt
 conda install docopt
 #sei
@@ -44,7 +45,7 @@ mkdir $datadir
 Rscript testdata.predictedTF.R #note: you need to change the code for your data
 
 #4 model's input:
-Rscript --vanilla snp.R -f ../snpdata/testdata/testsnppos.tsv -o $datadir/testsnppos.vcf
+Rscript --vanilla snp.R -f ../../snpdata/testdata/testsnppos.tsv -o $datadir/testsnppos.vcf
 #input for the script: -f:a file of snps,a snp per line,eg:chr10_114258723_G_A
 
 
@@ -59,7 +60,7 @@ Rscript testdata.merge.R #note: you need to change the code for your data
 
 
 #7 calculate AUROC,AUPRC of TFs
-Rscript --vanilla auroc_auprc.R -e ../snpdata/testdata/evaldata -f $datadir/Sei.merged.expe.pred.results.txt -m $datadir/evaldata_interSei9315tf.csv -d delta_alt_ref -o $datadir/Sei.tf.roc.prc.txt
+Rscript --vanilla auroc_auprc.R -e ../../snpdata/testdata/evaldata -f $datadir/Sei.merged.expe.pred.results.txt -m $datadir/evaldata_interSei9315tf.csv -d delta_alt_ref -o $datadir/Sei.tf.roc.prc.txt
 mv besttfmodel.roc.prc.txt $datadir/Sei.alltf.bestmodel.roc.prc.txt
 #input for the script: -e: prefix of positive set and negative set,eg: evaldata_positive_data.txt,evaldata_negative_data.txt .The 'snp' and 'TF_SYMBOL' columns must be provided.
 #-f: a file of merged experimental and predictive difference value(2 alleles of snp) of TF binding, the 'snp','TF_SYMBOL','model_name',predictive difference value of TF binding colums must be provided.
