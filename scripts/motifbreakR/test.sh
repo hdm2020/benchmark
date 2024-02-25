@@ -27,7 +27,7 @@ Rscript --vanilla snp.R -f ../../snpdata/testdata/testsnppos.tsv -o $datadir/tes
 mkdir $datadir/pwm_jaspar2022
 mkdir $datadir/pwm_jaspar2022/results
 nohup Rscript --vanilla motifbreakR.predict.R -f $datadir/testsnppos.bed -m $datadir/evaldata_intermotifbreakR.jaspar587tf.csv --pwmdb jaspar -g BSgenome.Hsapiens.UCSC.hg19 --method default -o $datadir/pwm_jaspar2022/results/motifbreakR.jaspar2022.txt &
-#input for the script: -f:output of the script 'snp.R', a file including 5 columns:snpid chr snp(position) a1(ref allele) a2(alt allele)
+#input for the script: -f:output of the script 'snp.R', a file including 6 columns: chr start(position_start) snp(position_end) snpid score strand
 #-m: TF model you need to run,a TF model per line. The 'motif_name' column must be provided,eg:Hsapiens-jaspar2022-FOXF2-MA0030.1
 #output for the script: see https://bioconductor.org/packages/release/bioc/vignettes/motifbreakR/inst/doc/motifbreakR-vignette.html
 
