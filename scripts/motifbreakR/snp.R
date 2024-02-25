@@ -1,5 +1,5 @@
 #modify snps' format: BED format
-#five columns:snpid chr snp(position) a1(ref allele) a2(alt allele)
+#six columns: chr start(position_start) snp(position_end) snpid score strand 
 #!/usr/bin/env Rscript
 library("optparse")
  
