@@ -1,4 +1,4 @@
-#script for predicting snp's effect on TF binding using atSNP
+#script for predicting snp's effect on TF binding using tRap
 
 #!/usr/bin/env Rscript
 library("optparse")
