@@ -309,7 +309,7 @@ input: `hg19.fa`, `testsnppos.tsv`
 
 `testsnppos.tsv` is a file of SNPs, an SNP per line, eg:chr10_114258723_G_A
 
-output: `testdata.ref.fa`, `testdata.ref.fa`, `testsnp.log`
+output: `testdata.ref.fa`, `testdata.alt.fa`, `testsnp.log`
 
 `testdata.*.fa` contains genome sequences for each SNP.
 
